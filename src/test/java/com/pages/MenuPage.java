@@ -1,10 +1,7 @@
 package com.pages;
 
-import java.time.Duration;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -27,8 +24,14 @@ public class MenuPage extends BasePage{
 	@FindBy(xpath = "//*[@id=\"c-omni-container\"]/div/div[1]/div/input")
 	public WebElement cityLocator;
 	
+	@FindBy(xpath = "//*[@id=\"c-omni-container\"]/div/div[1]/div[2]/div[2]/div[1]/span[1]/div")
+	public WebElement cityName;
+	
 	@FindBy(xpath = "//*[@id=\"c-omni-container\"]/div/div[2]/div/input")
 	public WebElement serviceLocator;
+	
+	@FindBy(xpath = "//*[@id=\"c-omni-container\"]/div/div[2]/div[2]/div[1]/div[5]/span[1]/div")
+	public WebElement serviceName;
 	
 	@FindBy(xpath = "//*[@id=\"root\"]/div/div/div[3]/div/div/div/div")
 	public WebElement homeCards;
@@ -44,15 +47,15 @@ public class MenuPage extends BasePage{
 	//then use the test classes to assert it to be true
 	
 	public boolean isCityLocatorDisplayed() {
-        return pageActions.isElementDisplayed(cityLocator);
+        return PageActions.isElementDisplayed(cityLocator);
     }
 
     public boolean isServiceLocatorDisplayed() {
-        return pageActions.isElementDisplayed(serviceLocator);
+        return PageActions.isElementDisplayed(serviceLocator);
     }
 
     public boolean isHomeCardsDisplayed() {
-        return pageActions.isElementDisplayed(homeCards);
+        return PageActions.isElementDisplayed(homeCards);
     }
 
     public void clickCityLocator() {
@@ -64,10 +67,13 @@ public class MenuPage extends BasePage{
     }
 
 
-	public void selectCityFromDropdown(String city) {
-		pageActions.selectFromDropdown(cityLocator, city);
-		
-	}
+    public boolean isCityNameDisplayed() {
+        return PageActions.isElementDisplayed(cityName);
+    }
+    
+    public void clickCityName() {
+        pageActions.clickElement(cityName);
+    }
 
 	public void enterService(String service) {
 		pageActions.enterText(serviceLocator, service);
@@ -76,6 +82,15 @@ public class MenuPage extends BasePage{
 
 	public void selectServiceFromDropdown(String service) {
 		pageActions.selectFromDropdown(serviceLocator, service);
+		
+	}
+	
+	public boolean isServiceNameDisplayed() {
+        return PageActions.isElementDisplayed(serviceName);
+    }
+
+	public void clickServiceType() {
+		pageActions.clickElement(serviceName);
 		
 	}
 

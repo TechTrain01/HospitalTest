@@ -14,16 +14,16 @@ import org.openqa.selenium.support.ui.Select;
 public class PageActions {
 	
 	private static final Logger logger = LogManager.getLogger(PageActions.class);
-	FluentWait<WebDriver> wait1;
+	static FluentWait<WebDriver> wait1;
 	
 	public PageActions(WebDriver driver) {
-	    this.wait1 = new FluentWait<>(driver)
+	    PageActions.wait1 = new FluentWait<>(driver)
 	        .withTimeout(Duration.ofSeconds(30))
 	        .pollingEvery(Duration.ofSeconds(5))
 	        .ignoring(NoSuchElementException.class);
 	}
 	
-	public boolean isElementDisplayed(WebElement element) {
+	public static boolean isElementDisplayed(WebElement element) {
 		logger.info("Checking if element is displayed: " + element);
 		waitFor(element);
 		boolean isDisplayed = element.isDisplayed();
@@ -43,7 +43,7 @@ public class PageActions {
 	    logger.info("Entering text '" + text + "' into element: " + element);
 	}
 	
-	public void waitFor(WebElement element) {
+	public static void waitFor(WebElement element) {
 		wait1.until(driver -> element.isDisplayed());
 		logger.info("Waits for element " + element + " to be displayed");
 	}

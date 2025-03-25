@@ -4,8 +4,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.AssertJUnit;
 
-import com.hospital.practo.hooks.Hooks;
-import com.pages.BasePage;
 import com.pages.MenuPage;
 import com.utils.PropertiesHandler;
 
@@ -36,7 +34,8 @@ public class MenuPageSteps {
 	
 	@And("the user selects {string} from the dropdown options")
 	public void the_user_selects_from_the_dropdown_options(String city) {
-		home.selectCityFromDropdown(PropertiesHandler.getProperty("cityFullName"));
+		AssertJUnit.assertEquals(home.isCityNameDisplayed(), true);
+		home.clickCityName();
 	    logger.info("Selected city from dropdown: " + city);
 	}
 
@@ -48,7 +47,8 @@ public class MenuPageSteps {
 
 	@And("the user selects {string} from the service type dropdown")
 	public void the_user_selects_from_the_service_type_dropdown(String service) {
-		home.selectServiceFromDropdown(service);
+		AssertJUnit.assertEquals(home.isServiceNameDisplayed(), true);
+		home.clickServiceType();
 	    logger.info("Selected service from dropdown: " + service);
 	}
 

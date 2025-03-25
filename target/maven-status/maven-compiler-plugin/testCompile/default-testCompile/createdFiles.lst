@@ -1,0 +1,8 @@
+com\hospital\practo\hooks\Hooks.class
+com\hospital\practo\steps\MenuPageSteps.class
+demo\ProofOfConcept.class
+com\pages\MenuPage.class
+com\utils\PropertiesHandler.class
+com\pages\BasePage.class
+com\hospital\practo\runner\CukeRun.class
+com\utils\PageActions.class
