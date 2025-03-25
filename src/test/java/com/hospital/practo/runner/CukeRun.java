@@ -10,7 +10,7 @@ plugin= {"html:target/cucumber-reports/cucmber-html-report.html",
 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 */
 
-@CucumberOptions(features="src/test/resources/features/homeSite.feature", glue= {"com/hospital/practo/steps"},
+@CucumberOptions(features="src/test/resources/features/homeSite.feature", glue= {"com/hospital/practo/steps", "com/hospital/practo/hooks"},
 plugin= {"html:target/cucumber-reports/cucmber-html-report.html",
 		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 public class CukeRun extends AbstractTestNGCucumberTests{
