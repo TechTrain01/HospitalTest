@@ -1,3 +1,4 @@
+@testMenuPage
 Feature: Search for hospitals in a specific city on Practo
 
   Scenario: User searches for hospitals in Bangalore
@@ -7,4 +8,3 @@ Feature: Search for hospitals in a specific city on Practo
     And the user selects "Hospital" from the service search Field
     And the user selects "Hospital" from the service type dropdown
     Then the user should be navigated to the list of hospitals in Bangalore
-    And the user should see a list of hospitals in Bangalore

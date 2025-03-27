@@ -2,11 +2,14 @@ package com.pages;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.utils.PageActions;
 import com.utils.PropertiesHandler;
@@ -17,24 +20,11 @@ public class MenuPage extends BasePage{
 	
 	private static final Logger logger = LogManager.getLogger(MenuPage.class);
 	WebDriver driver;
-	PropertiesHandler properties = new PropertiesHandler();
+//	public static PropertiesHandler properties = new PropertiesHandler();
 	FluentWait<WebDriver> wait1;
 	PageActions pageActions;
-	
-	@FindBy(xpath = "//*[@id=\"c-omni-container\"]/div/div[1]/div/input")
-	public WebElement cityLocator;
-	
-	@FindBy(xpath = "//*[@id=\"c-omni-container\"]/div/div[1]/div[2]/div[2]/div[1]/span[1]/div")
-	public WebElement cityName;
-	
-	@FindBy(xpath = "//*[@id=\"c-omni-container\"]/div/div[2]/div/input")
-	public WebElement serviceLocator;
-	
-	@FindBy(xpath = "//*[@id=\"c-omni-container\"]/div/div[2]/div[2]/div[1]/div[5]/span[1]/div")
-	public WebElement serviceName;
-	
-	@FindBy(xpath = "//*[@id=\"root\"]/div/div/div[3]/div/div/div/div")
-	public WebElement homeCards;
+//	private static final String CITY_FULL_NAME = PropertiesHandler.getProperty("Fullname");
+//	private static final String XPATH_EXPRESSION = "//div[contains(@class, 'c-omni-suggestion-item__content__title') and contains(text(), '" + CITY_FULL_NAME + "')]";
 	
 	public MenuPage() {
 		this.driver = browserSetUp();
@@ -43,55 +33,100 @@ public class MenuPage extends BasePage{
 		logger.info("MenuPage initialized");
 	}
 	
-	//make methods: does home page button exist
-	//then use the test classes to assert it to be true
+//MAIN PAGE ELEMENTS:
+	@FindBy(xpath = "//*[@id=\"c-omni-container\"]/div/div[1]/div/input")
+	public WebElement cityLocator;
 	
+//	c-omni-suggestion-item__content__title = Bangalore
+	   
+	
+//	public WebElement cityName(String cityName) {
+//		WebDriverWait wait = new WebDriverWait(driver, 10); // 10 seconds wait
+//        return wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='c-omni-suggestion-item__content__title' and text()='" + cityName + "']")));
+//    }
+	
+	@FindBy(xpath = "//div[contains(@class, 'c-omni-suggestion-item__content__title') and contains(text(), 'Bangalore')]")
+	public WebElement cityName;
+	
+	
+	@FindBy(xpath = "//*[@id=\"c-omni-container\"]/div/div[2]/div/input")
+	public WebElement serviceLocator;
+	
+//	public WebElement serviceName(String serviceType) {
+//        return driver.findElement(By.xpath("//div[@class='c-omni-suggestion-item__content__title' and text()='" + serviceType + "']"));
+//    } 
+	
+	@FindBy(xpath = "//div[contains(@class, 'c-omni-suggestion-item') and .//div[text()='Hospital'] and .//span[text()='TYPE']]")
+	public WebElement serviceName;
+	
+	@FindBy(xpath = "//*[@id=\"root\"]/div/div/div[3]/div/div/div/div")
+	public WebElement homeCards;
+	
+//MENU PAGE ELEMENTS:
+	@FindBy(xpath = "//h1[contains(text(), 'Hospitals in Bangalore')]")
+	public WebElement totalHospitals;
+	
+	@FindBy(xpath = "")
+	public WebElement openingTime;
+	
+	@FindBy(xpath = "")
+	public WebElement HospitalName;
+	
+	
+	
+	
+//MAIN PAGE METHODS:
+	
+	//Locator Methods
 	public boolean isCityLocatorDisplayed() {
-        return PageActions.isElementDisplayed(cityLocator);
+        return pageActions.isElementDisplayed(cityLocator);
     }
-
     public boolean isServiceLocatorDisplayed() {
-        return PageActions.isElementDisplayed(serviceLocator);
+        return pageActions.isElementDisplayed(serviceLocator);
     }
-
     public boolean isHomeCardsDisplayed() {
-        return PageActions.isElementDisplayed(homeCards);
+        return pageActions.isElementDisplayed(homeCards);
     }
 
+    //City Locator methods
     public void clickCityLocator() {
         pageActions.clickElement(cityLocator);
     }
-
     public void enterCity(String city) {
         pageActions.enterText(cityLocator, city);
     }
-
-
     public boolean isCityNameDisplayed() {
-        return PageActions.isElementDisplayed(cityName);
+        return pageActions.isElementDisplayed(cityName);
     }
-    
     public void clickCityName() {
         pageActions.clickElement(cityName);
     }
 
+    //Service Locator Methods
 	public void enterService(String service) {
 		pageActions.enterText(serviceLocator, service);
-		
 	}
-
-	public void selectServiceFromDropdown(String service) {
-		pageActions.selectFromDropdown(serviceLocator, service);
-		
-	}
-	
 	public boolean isServiceNameDisplayed() {
-        return PageActions.isElementDisplayed(serviceName);
+        return pageActions.isElementDisplayed(serviceName);
     }
-
 	public void clickServiceType() {
 		pageActions.clickElement(serviceName);
-		
+	}
+
+//MENU PAGE METHODS
+	
+	public void goToMenuPage(String city, String service) {
+		clickCityLocator();
+		enterCity(city);
+		pageActions.waitFor(cityName);
+		clickCityName();
+		enterService(service);
+		pageActions.waitFor(serviceName);
+		clickServiceType();
+	}
+	
+	public boolean isHospitalNumbersDisplayed() {
+		return pageActions.isElementDisplayed(totalHospitals);
 	}
 
 }

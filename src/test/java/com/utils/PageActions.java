@@ -23,7 +23,7 @@ public class PageActions {
 	        .ignoring(NoSuchElementException.class);
 	}
 	
-	public static boolean isElementDisplayed(WebElement element) {
+	public boolean isElementDisplayed(WebElement element) {
 		logger.info("Checking if element is displayed: " + element);
 		waitFor(element);
 		boolean isDisplayed = element.isDisplayed();
@@ -43,9 +43,9 @@ public class PageActions {
 	    logger.info("Entering text '" + text + "' into element: " + element);
 	}
 	
-	public static void waitFor(WebElement element) {
+	public void waitFor(WebElement element) {
 		wait1.until(driver -> element.isDisplayed());
-		logger.info("Waits for element " + element + " to be displayed");
+		logger.info("Waits for element " + element.getTagName() + " to be displayed");
 	}
 	
 	public void selectFromDropdown(WebElement dropdown, String value) {

@@ -2,6 +2,7 @@ package com.hospital.practo.steps;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.testng.Assert;
 import org.testng.AssertJUnit;
 
 import com.pages.MenuPage;
@@ -54,12 +55,7 @@ public class MenuPageSteps {
 
 	@Then("the user should be navigated to the list of hospitals in Bangalore")
 	public void the_user_should_be_navigated_to_the_list_of_hospitals_in_bangalore() {
-		System.out.println("navigated to menu page");
-	}
-
-	@And("the user should see a list of hospitals in Bangalore")
-	public void the_user_should_see_a_list_of_hospitals_in_bangalore() {
-		System.out.println("asserted this page");
+		Assert.assertEquals(home.isHospitalNumbersDisplayed(), true);
 	}
 
 }
