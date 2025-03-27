@@ -224,3 +224,34 @@
 2025-03-27 13:37:28 [main] INFO  PageActions -Waits for element h1 to be displayed
 2025-03-27 13:37:28 [main] INFO  PageActions -Element displayed: true
 2025-03-27 13:37:28 [main] INFO  Hooks -@AFTER: Webpage closed
+2025-03-27 13:55:27 [main] INFO  BasePage -Chrome browser setup completed.
+2025-03-27 13:55:30 [main] INFO  MenuPage -MenuPage initialized
+2025-03-27 13:55:30 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (44c4aa9ac2eb76d98ca0eaccd061e73b)] -> xpath: //*[@id="root"]/div/div/div[3]/div/div/div/div]
+2025-03-27 13:55:30 [main] INFO  PageActions -Waits for element div to be displayed
+2025-03-27 13:55:30 [main] INFO  PageActions -Element displayed: true
+2025-03-27 13:55:30 [main] INFO  MenuPageSteps -Verified that the user is on the Practo homepage
+2025-03-27 13:55:30 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (44c4aa9ac2eb76d98ca0eaccd061e73b)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-03-27 13:55:30 [main] INFO  PageActions -Waits for element input to be displayed
+2025-03-27 13:55:30 [main] INFO  PageActions -Element displayed: true
+2025-03-27 13:55:30 [main] INFO  MenuPageSteps -Verified that the cityLocator text field is on the Practo homepage
+2025-03-27 13:55:30 [main] INFO  PageActions -Entering text 'Ban' into element: [[ChromeDriver: chrome on windows (44c4aa9ac2eb76d98ca0eaccd061e73b)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-03-27 13:55:31 [main] INFO  PageActions -Checking if element is displayed: Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class, 'c-omni-suggestion-item__content__title') and contains(text(), 'Bangalore')]'
+2025-03-27 13:55:36 [main] INFO  PageActions -Waits for element div to be displayed
+2025-03-27 13:55:36 [main] INFO  PageActions -Element displayed: true
+2025-03-27 13:55:36 [main] INFO  MenuPageSteps -Selected city from dropdown: Bangalore
+2025-03-27 13:55:36 [main] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (44c4aa9ac2eb76d98ca0eaccd061e73b)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-03-27 13:55:36 [main] INFO  MenuPageSteps -Entered service: Hospital
+2025-03-27 13:55:36 [main] INFO  PageActions -Checking if element is displayed: Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class, 'c-omni-suggestion-item') and .//div[text()='Hospital'] and .//span[text()='TYPE']]'
+2025-03-27 13:55:41 [main] INFO  PageActions -Waits for element div to be displayed
+2025-03-27 13:55:41 [main] INFO  PageActions -Element displayed: true
+2025-03-27 13:55:49 [main] INFO  MenuPageSteps -Selected service from dropdown: Hospital
+2025-03-27 13:55:49 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (44c4aa9ac2eb76d98ca0eaccd061e73b)] -> css selector: span.u-bold]
+2025-03-27 13:55:49 [main] INFO  PageActions -Waits for element span to be displayed
+2025-03-27 13:55:49 [main] INFO  PageActions -Element displayed: true
+2025-03-27 13:55:49 [main] INFO  Hooks -@AFTER: Webpage closed
+2025-03-27 14:20:12 [main] INFO  BasePage -Chrome browser setup completed.
+2025-03-27 14:20:14 [main] INFO  MenuPage -MenuPage initialized
+2025-03-27 14:20:16 [main] INFO  PageActions -Entering text 'Ban' into element: [[ChromeDriver: chrome on windows (94265af332f17b9403f757fdd926259f)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-03-27 14:20:21 [main] INFO  PageActions -Waits for element div to be displayed
+2025-03-27 14:20:21 [main] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (94265af332f17b9403f757fdd926259f)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-03-27 14:20:26 [main] INFO  PageActions -Waits for element div to be displayed

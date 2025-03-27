@@ -2,46 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-27T13:37:00 GMT" name="Default suite" finished-at="2025-03-27T13:37:28 GMT" duration-ms="28535">
+  <suite started-at="2025-03-27T14:20:14 GMT" name="Default suite" finished-at="2025-03-27T14:20:33 GMT" duration-ms="18852">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hospital.practo.runner.CukeRun@8317c52]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-03-27T13:37:00 GMT" name="Default test" finished-at="2025-03-27T13:37:28 GMT" duration-ms="28535">
-      <class name="com.hospital.practo.runner.CukeRun">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.hospital.practo.runner.CukeRun@8317c52]" started-at="2025-03-27T13:37:00 GMT" name="setUpClass" finished-at="2025-03-27T13:37:01 GMT" duration-ms="736" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@2baf72d5]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-03-27T14:20:14 GMT" name="Default test" finished-at="2025-03-27T14:20:33 GMT" duration-ms="18852">
+      <class name="com.pageTests.HospitalListingsTest">
+        <test-method signature="setUp()[pri:0, instance:com.pageTests.HospitalListingsTest@47f08b81]" started-at="2025-03-27T14:20:14 GMT" name="setUp" finished-at="2025-03-27T14:20:33 GMT" duration-ms="18769" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hospital.practo.runner.CukeRun@8317c52]" started-at="2025-03-27T13:37:01 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-27T13:37:28 GMT" duration-ms="27480" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User searches for hospitals in Bangalore"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Search for hospitals in a specific city on Practo"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.hospital.practo.runner.CukeRun@8317c52]" started-at="2025-03-27T13:37:28 GMT" name="tearDownClass" finished-at="2025-03-27T13:37:28 GMT" duration-ms="272" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.hospital.practo.runner.CukeRun -->
+        </test-method> <!-- setUp -->
+      </class> <!-- com.pageTests.HospitalListingsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

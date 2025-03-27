@@ -10,6 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import java.util.List;
 
 import com.utils.PageActions;
 import com.utils.PropertiesHandler;
@@ -36,8 +37,6 @@ public class MenuPage extends BasePage{
 //MAIN PAGE ELEMENTS:
 	@FindBy(xpath = "//*[@id=\"c-omni-container\"]/div/div[1]/div/input")
 	public WebElement cityLocator;
-	
-//	c-omni-suggestion-item__content__title = Bangalore
 	   
 	
 //	public WebElement cityName(String cityName) {
@@ -66,11 +65,17 @@ public class MenuPage extends BasePage{
 	@FindBy(xpath = "//h1[contains(text(), 'Hospitals in Bangalore')]")
 	public WebElement totalHospitals;
 	
-	@FindBy(xpath = "")
+	@FindBy(xpath = "//*[@id=\"container\"]/div/div[3]/div/div[1]/ol/li[1]/div/div[2]/div[1]/div/span[2]/span")
 	public WebElement openingTime;
 	
-	@FindBy(xpath = "")
-	public WebElement HospitalName;
+	@FindBy(css = ".c-estb-card")
+    List<WebElement> hospitalCards;
+	
+	@FindBy(css = "span.u-bold")
+	public WebElement rating;
+	
+	@FindBy(css = "h2.line-1")
+	public WebElement hospitalName;
 	
 	
 	
@@ -127,6 +132,16 @@ public class MenuPage extends BasePage{
 	
 	public boolean isHospitalNumbersDisplayed() {
 		return pageActions.isElementDisplayed(totalHospitals);
+	}
+	
+	public boolean isRatingsDisplayed() {
+		return pageActions.isElementDisplayed(rating);
+	}
+	
+	
+	public void extractHospitalInfo() {
+		
+		int registeredHospitals = 0;
 	}
 
 }

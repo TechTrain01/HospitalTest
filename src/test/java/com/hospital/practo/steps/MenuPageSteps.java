@@ -56,6 +56,8 @@ public class MenuPageSteps {
 	@Then("the user should be navigated to the list of hospitals in Bangalore")
 	public void the_user_should_be_navigated_to_the_list_of_hospitals_in_bangalore() {
 		Assert.assertEquals(home.isHospitalNumbersDisplayed(), true);
+//		Assert.assertEquals(home.isRatingsDisplayed(), true);
+		logger.info("Element succefully displayed: " +home.totalHospitals);
 	}
 
 }
