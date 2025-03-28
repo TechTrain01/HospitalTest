@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hospital.practo.runner.CukeRun">
+      <class name="com.pageTests.HospitalListingsTest">
         <methods>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
+          <include name="print_All_Hopsitals_With_Rating_And_Opening"/>
         </methods>
-      </class> <!-- com.hospital.practo.runner.CukeRun -->
+      </class> <!-- com.pageTests.HospitalListingsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
