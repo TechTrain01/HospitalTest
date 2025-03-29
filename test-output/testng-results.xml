@@ -1,21 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-28T14:24:23 GMT" name="Default suite" finished-at="2025-03-28T14:25:53 GMT" duration-ms="90695">
+  <suite started-at="2025-03-29T16:52:06 GMT" name="Default suite" finished-at="2025-03-29T16:52:22 GMT" duration-ms="15728">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hospital.practo.runner.CukeRun@1329eff]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-03-28T14:24:23 GMT" name="Default test" finished-at="2025-03-28T14:25:53 GMT" duration-ms="90695">
-      <class name="com.pageTests.HospitalListingsTest">
-        <test-method signature="setUp()[pri:1, instance:com.pageTests.HospitalListingsTest@32f0c7f8]" started-at="2025-03-28T14:24:23 GMT" name="setUp" finished-at="2025-03-28T14:25:03 GMT" duration-ms="40276" status="PASS">
+    <test started-at="2025-03-29T16:52:06 GMT" name="Default test" finished-at="2025-03-29T16:52:22 GMT" duration-ms="15728">
+      <class name="com.hospital.practo.runner.CukeRun">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.hospital.practo.runner.CukeRun@1329eff]" started-at="2025-03-29T16:52:06 GMT" name="setUpClass" finished-at="2025-03-29T16:52:07 GMT" duration-ms="760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3db6dd52]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="print_All_Hopsitals_With_Rating_And_Opening()[pri:2, instance:com.pageTests.HospitalListingsTest@32f0c7f8]" started-at="2025-03-28T14:25:03 GMT" name="print_All_Hopsitals_With_Rating_And_Opening" finished-at="2025-03-28T14:25:47 GMT" duration-ms="43926" status="PASS">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hospital.practo.runner.CukeRun@1329eff]" started-at="2025-03-29T16:52:07 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-29T16:52:21 GMT" duration-ms="14653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Fill invalid details in Corporate Wellness form and capture warning message"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Corporate Wellness Form Validation"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- print_All_Hopsitals_With_Rating_And_Opening -->
-      </class> <!-- com.pageTests.HospitalListingsTest -->
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.hospital.practo.runner.CukeRun@1329eff]" started-at="2025-03-29T16:52:21 GMT" name="tearDownClass" finished-at="2025-03-29T16:52:22 GMT" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.hospital.practo.runner.CukeRun -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

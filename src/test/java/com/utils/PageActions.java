@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -36,11 +37,21 @@ public class PageActions {
 		element.click();
 	}
 	
+	public void tabOut(WebElement element) {
+		element.sendKeys(Keys.TAB);
+	}
+	
 	
 	public void enterText(WebElement element, String text) {
 		element.clear();
 	    element.sendKeys(text);
 	    logger.info("Entering text '" + text + "' into element: " + element);
+	}
+	
+	public void enterNumber(WebElement element, int num) {
+	    element.clear();
+	    element.sendKeys(String.valueOf(num));
+	    logger.info("Entering text '" + num + "' into element: " + element);
 	}
 	
 	public void waitFor(WebElement element) {

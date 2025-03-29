@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Test case 1</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Mar 27, 2025 13:55:21</span></a>
+<a href="#"><span class="badge badge-primary">Mar 29, 2025 16:52:06</span></a>
 </li>
 </ul>
 </div>
@@ -79,7 +79,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@testMenuPage</a>
+<a class="dropdown-item" href="#">@WellnessLoginFeature</a>
 </ul>
 </li>
 </ul>
@@ -90,9 +90,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Search for hospitals in a specific city on Practo</p>
+            <p class="name">Corporate Wellness Form Validation</p>
             <p class="text-sm">
-              <span>13:55:22</span> / <span>00:00:27:182</span>
+              <span>16:52:07</span> / <span>00:00:14:534</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -100,10 +100,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Search for hospitals in a specific city on Practo</h5>
-<span class='badge badge-success'>03.27.2025 13:55:22</span>
-<span class='badge badge-danger'>03.27.2025 13:55:49</span>
-<span class='badge badge-default'>00:00:27:182</span>
+<h5 class="test-status text-pass">Corporate Wellness Form Validation</h5>
+<span class='badge badge-success'>03.29.2025 16:52:07</span>
+<span class='badge badge-danger'>03.29.2025 16:52:21</span>
+<span class='badge badge-default'>00:00:14:534</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -116,42 +116,49 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>User searches for hospitals in Bangalore</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Fill invalid details in Corporate Wellness form and capture warning message</div>
       </div>
     </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="com.hospital.practo.steps.MenuPageSteps.the_user_is_on_the_practo_homepage()">
-                <span>Given the user is on the Practo homepage</span>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Fill invalid details in Corporate Wellness form and capture warning message</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given the user is on the Corporate Wellness page</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="com.hospital.practo.steps.MenuPageSteps.the_user_enters_into_the_city_search_field(java.lang.String)">
-                <span>When the user enters "Bangalore" into the city search field</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user fills in details with "MichealScott", "DunderMifflin", "09876543210", "M.Scott-Dunder.com"</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="com.hospital.practo.steps.MenuPageSteps.the_user_selects_from_the_dropdown_options(java.lang.String)">
-                <span>And the user selects "Bangalore" from the dropdown options</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And selects "501-1000" from the first dropdown</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="com.hospital.practo.steps.MenuPageSteps.the_user_selects_from_the_service_search_field(java.lang.String)">
-                <span>And the user selects "Hospital" from the service search Field</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And selects an option from the second dropdown</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="com.hospital.practo.steps.MenuPageSteps.the_user_selects_from_the_service_type_dropdown(java.lang.String)">
-                <span>And the user selects "Hospital" from the service type dropdown</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should see respective invalid inputs highlighted in red</span>
       <div>
       </div>
-              </div>
-              <div class="step pass-bg" title="com.hospital.practo.steps.MenuPageSteps.the_user_should_be_navigated_to_the_list_of_hospitals_in_bangalore()">
-                <span>Then the user should be navigated to the list of hospitals in Bangalore</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the schedule button is greyed out</span>
       <div>
       </div>
+                  </div>
               </div>
-          </div>
+            </div>
         </div>
   </div>
 </div>
@@ -179,12 +186,12 @@
 <span class="meta">
 <span class='badge log pass-bg'>1</span>
 </span>
-<p class="name">@testMenuPage</p>
+<p class="name">@WellnessLoginFeature</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@testMenuPage</h4>
+<h4>@WellnessLoginFeature</h4>
 <span status="pass" class='badge log pass-bg'>1 passed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -198,11 +205,11 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>13:55:22 pm</td>
+<td>16:52:07 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>User searches for hospitals in Bangalore</a>
+<a href="#" class="linked" test-id='1' id='3'>Fill invalid details in Corporate Wellness form and capture warning message</a>
 <div class="">
-<span class="badge badge-default">Search for hospitals in a specific city on Practo.User searches for hospitals in Bangalore</span>
+<span class="badge badge-default">Corporate Wellness Form Validation.Fill invalid details in Corporate Wellness form and capture warning message</span>
 </div>
 </td>
 </tr>
@@ -223,13 +230,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Mar 27, 2025 13:55:21</h3>
+<h3>Mar 29, 2025 16:52:06</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Mar 27, 2025 13:55:49</h3>
+<h3>Mar 29, 2025 16:52:21</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -319,7 +326,7 @@
 </div></div>
 <script>
 var timeline = {
-"Search for hospitals in a specific city on Practo":27.182
+"Corporate Wellness Form Validation":14.534
 };
 </script>
 <div class="row">
@@ -329,7 +336,7 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@testMenuPage</td>
+<td>@WellnessLoginFeature</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
