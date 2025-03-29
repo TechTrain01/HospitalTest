@@ -29,6 +29,7 @@ public class WellnessPageSteps {
 		wp.enterOrganizationName(orgName);
 		wp.enterContactTextNumber(number);
 		wp.enterOfficialEmailId(email);
+		wp.scroll();
 
 	}
 
@@ -37,19 +38,32 @@ public class WellnessPageSteps {
 		wp.selectOrganizationSize(size);
 	}
 
-	@And("selects an option from the second dropdown")
-	public void selects_an_option_from_the_second_dropdown() {
-		System.out.println("test");
+	@And("selects {string} from the second dropdown")
+	public void selects_an_option_from_the_second_dropdown(String interest) {
+		wp.selectInterestedIn(interest);
 	}
 
 	@Then("the user should see respective invalid inputs highlighted in red")
 	public void the_user_should_see_respective_invalid_inputs_highlighted_in_red() {
-		System.out.println("test");
+		AssertJUnit.assertEquals(wp.isInputHighlightedInRed(wp.getContactNumberInput()), false);
+		AssertJUnit.assertEquals(wp.isInputHighlightedInRed(wp.getOfficialEmailIdInput()), false);
 	}
 
 	@And("the schedule button is greyed out")
 	public void the_schedule_button_is_greyed_out() {
-		System.out.println("test");
+		AssertJUnit.assertEquals(wp.isScheduleButtonGreyed(wp.scheduleDemoButton), true);
 	}
+	
+	@When("the user clicks on the Schedule button")
+    public void the_user_clicks_on_the_schedule_button() {
+		System.out.println("test");
+        wp.clickScheduleDemoButton();
+    }
+
+    @Then("the user should see Successful pop-up notification")
+    public void the_user_should_see_successful_pop_up_notification() {
+    	AssertJUnit.assertEquals(wp.isThankYouPopUpDisplayed(), true);
+        
+    }
 
 }

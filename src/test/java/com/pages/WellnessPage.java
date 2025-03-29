@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -53,7 +54,11 @@ public class WellnessPage extends BasePage {
     private WebElement interestedInSelect;
 
     @FindBy(css = "button[type='submit']")
-    private WebElement scheduleDemoButton;
+	public WebElement scheduleDemoButton;
+    
+    @FindBy(css = ".ReactModal__Content.ReactModal__Content--after-open")
+    private WebElement thankYouModel;
+
 	
 	
 	public void goToWellness() {
@@ -109,6 +114,40 @@ public class WellnessPage extends BasePage {
 	
 	public void clickScheduleDemoButton() {
         scheduleDemoButton.click();
+    }
+	
+	public void scroll() {
+        pageActions.scrollDown(100);
+    }
+	
+	public boolean isInputHighlightedInRed(WebElement element) {
+        String borderColor = element.getCssValue("border-color");
+        String textColor = element.getCssValue("color");
+        String expectedBorderColor = Color.fromString("#e0b4b4").asRgba();
+        String expectedTextColor = Color.fromString("#9f3a38").asRgba();
+        
+        System.out.println("Border Color: " + borderColor);
+        System.out.println("Text Color: " + textColor);
+        
+        return borderColor.equals(expectedBorderColor) && textColor.equals(expectedTextColor);
+    }
+	
+	public boolean isScheduleButtonGreyed(WebElement element) {
+		String backGroundColour = element.getCssValue("background-color");
+		String expectedBackgroundColour = Color.fromString("#b4b4be").asRgba();
+		return backGroundColour.equals(expectedBackgroundColour);
+	}
+	
+	public WebElement getContactNumberInput() {
+        return contactNumberInput;
+    }
+
+    public WebElement getOfficialEmailIdInput() {
+        return officialEmailIdInput;
+    }
+    
+    public boolean isThankYouPopUpDisplayed() {
+		return pageActions.isElementDisplayed(thankYouModel);
     }
 	
 

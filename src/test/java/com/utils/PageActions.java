@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -16,8 +17,10 @@ public class PageActions {
 	
 	private static final Logger logger = LogManager.getLogger(PageActions.class);
 	static FluentWait<WebDriver> wait1;
+	private WebDriver driver;
 	
 	public PageActions(WebDriver driver) {
+		this.driver = driver;
 	    PageActions.wait1 = new FluentWait<>(driver)
 	        .withTimeout(Duration.ofSeconds(30))
 	        .pollingEvery(Duration.ofSeconds(5))
@@ -30,6 +33,11 @@ public class PageActions {
 		boolean isDisplayed = element.isDisplayed();
         logger.info("Element displayed: " + isDisplayed);
         return isDisplayed;
+	}
+	
+	public void scrollDown(int pixels) {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0," + pixels + ")");
 	}
 	
 	
