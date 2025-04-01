@@ -199,6 +199,7 @@ public class MenuPage extends BasePage {
 
 	public List<String> extractHospitalInfo() {
 		List<String> hospitalInfo = new ArrayList<>();
+		boolean consentManaged = false;
 
 		for (WebElement card : hospitalCards) {
 			try {
@@ -232,7 +233,13 @@ public class MenuPage extends BasePage {
 //					HopsitalParkingPage parkingPage = new HopsitalParkingPage();
 //					parkingPage.manageConsent();
 //					parkingPage.findParking();
-					manageConsent();
+//					manageConsent();
+					
+					//So that manage consent only occurs once
+					if (!consentManaged) {
+	                    manageConsent();
+	                    consentManaged = true; // Set flag to true after managing consent
+	                }
 					findParking();
 
 					// Check if each hospital website has parking or not.
