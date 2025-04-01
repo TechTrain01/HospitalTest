@@ -24,7 +24,7 @@ public class MenuPage extends BasePage {
 	WebDriver driver;
 //	public static PropertiesHandler properties = new PropertiesHandler();
 //	FluentWait<WebDriver> wait1;
-	PageActions pageActions;
+	static PageActions pageActions;
 //	private static final String CITY_FULL_NAME = PropertiesHandler.getProperty("Fullname");
 //	private static final String XPATH_EXPRESSION = "//div[contains(@class, 'c-omni-suggestion-item__content__title') and contains(text(), '" + CITY_FULL_NAME + "')]";
 
@@ -37,7 +37,7 @@ public class MenuPage extends BasePage {
 
 //MAIN PAGE ELEMENTS:
 	@FindBy(xpath = "//*[@id=\"c-omni-container\"]/div/div[1]/div/input")
-	public WebElement cityLocator;
+	public static WebElement cityLocator;
 
 //	public WebElement cityName(String cityName) {
 //		WebDriverWait wait = new WebDriverWait(driver, 10); // 10 seconds wait
@@ -45,17 +45,17 @@ public class MenuPage extends BasePage {
 //    }
 
 	@FindBy(xpath = "//div[contains(@class, 'c-omni-suggestion-item__content__title') and contains(text(), 'Bangalore')]")
-	public WebElement cityName;
+	public static WebElement cityName;
 
 	@FindBy(xpath = "//*[@id=\"c-omni-container\"]/div/div[2]/div/input")
-	public WebElement serviceLocator;
+	public static WebElement serviceLocator;
 
 //	public WebElement serviceName(String serviceType) {
 //        return driver.findElement(By.xpath("//div[@class='c-omni-suggestion-item__content__title' and text()='" + serviceType + "']"));
 //    } 
 
 	@FindBy(xpath = "//div[contains(@class, 'c-omni-suggestion-item') and .//div[text()='Hospital'] and .//span[text()='TYPE']]")
-	public WebElement serviceName;
+	public static WebElement serviceName;
 
 	@FindBy(xpath = "//*[@id=\"root\"]/div/div/div[3]/div/div/div/div")
 	public WebElement homeCards;
@@ -64,22 +64,63 @@ public class MenuPage extends BasePage {
 	@FindBy(xpath = "//h1[contains(text(), 'Hospitals in Bangalore')]")
 	public WebElement totalHospitals;
 
-	@FindBy(xpath = "//*[@id=\"container\"]/div/div[3]/div/div[1]/ol/li[1]/div/div[2]/div[1]/div/span[2]/span")
-	public WebElement openingTime;
-
 	@FindBy(css = ".c-estb-card")
 	List<WebElement> hospitalCards;
-	
+
 	@FindBy(className = "line-1")
 	WebElement hospitalTitle;
-	
-	
+
+	@FindBy(xpath = "//*[@id=\"container\"]/div/div[3]/div/div[1]/ol/li[1]/div/div[2]/div[1]/div/span[2]/span")
+	public WebElement openingTime;
 
 	@FindBy(css = "span.u-bold")
 	public WebElement rating;
 
-	@FindBy(css = "h2.line-1")
-	public WebElement hospitalName;
+	@FindBy(css = "line-1")
+	public static WebElement hospitalName;
+	
+	
+	//HOSPITAL PARKING PAGE ELEMENTS
+	
+	@FindBy(css = "div.pure-u-1 > span[data-qa-id='read_more_info']")
+    WebElement readMoreInfoElement;
+
+	@FindBy(css = "span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']")
+	WebElement parkingElement;
+	
+	@FindBy(xpath = "/html/body/div[6]/div[2]/div[2]/div[2]/div/div[1]/h1")
+	private WebElement consentDialog;
+	
+	@FindBy(css = "button.fc-button.fc-cta-consent.fc-primary-button")
+    WebElement consentButton;
+	
+	
+	//HOSPITAL PARKING PAGE METHODS
+	public void clickConsentButton() {
+        consentButton.click();
+    }
+	
+	public boolean isConsentButtonDisplayed() {
+		return pageActions.isElementDisplayed(consentButton);
+	}
+	
+	 public void manageConsent() {
+	    	if(isConsentButtonDisplayed() == true) {
+	    		clickConsentButton();
+	    		logger.info("Clicked 'Do not consent'");
+	    	}
+	    }
+
+	public void findParking() {
+		pageActions.scrollDown(500);
+		pageActions.isElementDisplayed(readMoreInfoElement);
+		pageActions.clickElement(readMoreInfoElement);
+		pageActions.scrollDown(300);
+	}
+	
+	public boolean isParkingDisplayed() {
+		return pageActions.isElementDisplayed(parkingElement);
+	}
 
 //MAIN PAGE METHODS:
 
@@ -97,11 +138,11 @@ public class MenuPage extends BasePage {
 	}
 
 	// City Locator methods
-	public void clickCityLocator() {
+	public static void clickCityLocator() {
 		pageActions.clickElement(cityLocator);
 	}
 
-	public void enterCity(String city) {
+	public static void enterCity(String city) {
 		pageActions.enterText(cityLocator, city);
 	}
 
@@ -109,12 +150,12 @@ public class MenuPage extends BasePage {
 		return pageActions.isElementDisplayed(cityName);
 	}
 
-	public void clickCityName() {
+	public static void clickCityName() {
 		pageActions.clickElement(cityName);
 	}
 
 	// Service Locator Methods
-	public void enterService(String service) {
+	public static void enterService(String service) {
 		pageActions.enterText(serviceLocator, service);
 	}
 
@@ -122,13 +163,13 @@ public class MenuPage extends BasePage {
 		return pageActions.isElementDisplayed(serviceName);
 	}
 
-	public void clickServiceType() {
+	public static void clickServiceType() {
 		pageActions.clickElement(serviceName);
 	}
 
 //MENU PAGE METHODS
 
-	public void goToMenuPage(String city, String service) {
+	public static void goToMenuPage(String city, String service) {
 		clickCityLocator();
 		enterCity(city);
 		pageActions.waitFor(cityName);
@@ -156,73 +197,69 @@ public class MenuPage extends BasePage {
 		return Openings;
 	}
 
-//	public String extractHospitalInfo() {
-//		List<String> hospitalInfo = new ArrayList<>();
-//
-//		for (WebElement card : hospitalCards) {
-//			if (getOpeningTime().equals("Open 24x7") && getRating() >= 3.5) {
-//				hospitalInfo.add(card.getText());
-//			}
-//		}
-//
-//		return hospitalInfo.toString();
-//	}
-	
-//	public List<String> extractHospitalInfo() {
-//        List<String> hospitalInfo = new ArrayList<>();
-//        
-//        for (WebElement card : hospitalCards) {
-//            try {
-//                Double rating = Double.parseDouble(getRating());
-//                if (openingTime.equals("Open 24x7")) {
-//                    hospitalInfo.add(card.getText());
-//                }
-//            } catch (NumberFormatException e) {
-//                System.out.println("Invalid rating: " + getRating());
-//            }
-//        }
-//        
-//        return hospitalInfo;
-//    }
-	
-//	public List<String> extractHospitalInfo() {
-//        List<String> hospitalInfo = new ArrayList<>();
-//        
-//        for (WebElement card : hospitalCards) {
-//        	String title = card.findElement(By.className("line-1")).getText();
-//        	hospitalInfo.add(title);
-//        }
-//        
-//        return hospitalInfo;
-//    }
-	
-	
 	public List<String> extractHospitalInfo() {
-        List<String> hospitalInfo = new ArrayList<>();
-        
-        for (WebElement card : hospitalCards) {
-            try {
-                // Extract the rating text and convert it to a Double
-//            	String ratingText = card.rating.getText();
-//                Double rating = Double.parseDouble(ratingText);
+		List<String> hospitalInfo = new ArrayList<>();
 
-                // Extract the opening time text
-                String openingTime = card.findElement(By.className("pd-right-2px-text-green")).getText();
+		for (WebElement card : hospitalCards) {
+			try {
+//                 Extract the rating text and convert it to a Double
+				String ratingText = card.findElement(By.className("c-feedback")).findElement(By.className("u-bold"))
+						.getText();
+				Double rating = Double.parseDouble(ratingText);
 
-                // Check if the hospital meets the criteria
-                if (openingTime.equals("Open 24x7") && getRating().equals("4.0")) {
-                    // Extract the hospital name
-                    String title = card.findElement(By.className("line-1")).getText();
-                    hospitalInfo.add(title);
-                }
-            } catch (NumberFormatException e) {
-                System.out.println("Invalid rating: " + rating);
-            } catch (NoSuchElementException e) {
-                System.out.println("Element not found: " + e.getMessage());
-            }
-        }
-        
-        return hospitalInfo;
-    }
+				// Extract the opening time text
+				String openingTime = card.findElement(By.className("pd-right-2px-text-green")).getText();
+
+				// Check if the hospital meets the criteria
+				if (openingTime.equals("Open 24x7") && rating >= 3.5) {
+					// Extract the hospital name
+					String title = card.findElement(By.className("line-1")).getText();
+					String originalWindow = driver.getWindowHandle();
+					System.out.println(originalWindow);
+
+					pageActions.clickElement(card.findElement(By.className("line-1")));
+
+					// locating new Tab that appears
+					for (String windowHandle : driver.getWindowHandles()) {
+						if (!windowHandle.equals(originalWindow)) {
+							System.out.println(windowHandle);
+							driver.switchTo().window(windowHandle);
+							break;
+						}
+					}
+
+					// initialise the parking page class
+//					HopsitalParkingPage parkingPage = new HopsitalParkingPage();
+//					parkingPage.manageConsent();
+//					parkingPage.findParking();
+					manageConsent();
+					findParking();
+
+					// Check if each hospital website has parking or not.
+					if (isParkingDisplayed() == true) {
+						hospitalInfo.add(title);
+						logger.info("Parking was displayed");
+					}
+					// close current tab
+					pageActions.closeCurrentTab();
+
+					// go back to original window
+					driver.switchTo().window(originalWindow);
+
+				}
+			} catch (NumberFormatException e) {
+				System.out.println("Invalid rating: " + rating);
+			} catch (NoSuchElementException e) {
+				System.out.println("Element not found: " + e.getMessage());
+			}
+		}
+
+		return hospitalInfo;
+	}
+
+	public static void clickHospitalName() {
+		pageActions.clickElement(hospitalName);
+
+	}
 
 }

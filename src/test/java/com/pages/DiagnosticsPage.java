@@ -93,14 +93,16 @@ public class DiagnosticsPage extends BasePage {
     public void clickDoNotConsent() {
         pageActions.clickElement(doNotConsentButton);
     }
+	
+	 public void manageConsent() {
+	    	if(isConsentDialogDisplayed() == true) {
+	    		clickDoNotConsent();
+	    		logger.info("Clicked 'Do not consent'");
+	    	}else {
+	    		logger.info("Consent dialog not displayed");
+	    	}
+	    }
     
-    public void manageConsent() {
-    	if(isConsentDialogDisplayed() == true) {
-    		clickDoNotConsent();
-    		logger.info("Clicked 'Do not consent'");
-    	}else {
-    		logger.info("Consent dialog not displayed");
-    	}
-    }
+   
 
 }

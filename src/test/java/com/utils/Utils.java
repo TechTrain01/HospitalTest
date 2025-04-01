@@ -4,12 +4,14 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Utils {
@@ -40,20 +42,36 @@ public class Utils {
     }
 	
 	
+	public List<String> readHospitalNames(String filePath) throws IOException {
+        List<String> hospitalNames = new ArrayList<>();
+        FileInputStream fis = new FileInputStream(new File(filePath));
+        Workbook workbook = WorkbookFactory.create(fis);
+        Sheet sheet = workbook.getSheetAt(0);
+
+        for (Row row : sheet) {
+            hospitalNames.add(row.getCell(0).getStringCellValue());
+        }
+
+        workbook.close();
+        fis.close();
+        return hospitalNames;
+    }
 	
-	public static Object[][] getExcelData(String filePath, int sheetIndex) throws IOException {
-		try (FileInputStream file = new FileInputStream(new File(filePath));
-				Workbook workbook = new XSSFWorkbook(file)) {
-			Sheet sheet = workbook.getSheetAt(sheetIndex);
-			int rowCount = sheet.getPhysicalNumberOfRows();
-			Object[][] data = new Object[rowCount - 1][2];
-			for (int i = 1; i < rowCount; i++) {
-				Row row = sheet.getRow(i);
-				data[i - 1][0] = row.getCell(0).getStringCellValue();
-				data[i - 1][1] = row.getCell(1).getStringCellValue();
-			}
-			return data;
-		}
-	}
+	
+	
+//	public static Object[][] getExcelData(String filePath, int sheetIndex) throws IOException {
+//		try (FileInputStream file = new FileInputStream(new File(filePath));
+//				Workbook workbook = new XSSFWorkbook(file)) {
+//			Sheet sheet = workbook.getSheetAt(sheetIndex);
+//			int rowCount = sheet.getPhysicalNumberOfRows();
+//			Object[][] data = new Object[rowCount - 1][2];
+//			for (int i = 1; i < rowCount; i++) {
+//				Row row = sheet.getRow(i);
+//				data[i - 1][0] = row.getCell(0).getStringCellValue();
+//				data[i - 1][1] = row.getCell(1).getStringCellValue();
+//			}
+//			return data;
+//		}
+//	}
 
 }

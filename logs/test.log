@@ -1,76 +1,42 @@
-2025-03-30 18:29:02 [main] INFO  BasePage -Chrome browser setup completed.
-2025-03-30 18:29:04 [main] INFO  MenuPage -BasePage initialized
-2025-03-30 18:29:06 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (7db21a5ae2ff27a5f5dc78291d5f70c5)] -> xpath: //*[@id="root"]/div/div/div[3]/div/div/div/div]
-2025-03-30 18:29:06 [main] INFO  PageActions -Waits for element div to be displayed
-2025-03-30 18:29:06 [main] INFO  PageActions -Element displayed: true
-2025-03-30 18:29:06 [main] INFO  TopCitiesSteps -Verified that the user is on the Practo homepage
-2025-03-30 18:29:11 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (7db21a5ae2ff27a5f5dc78291d5f70c5)] -> css selector: .ReactModal__Content.ReactModal__Content--after-open]
-2025-03-30 18:29:11 [main] INFO  PageActions -Waits for element div to be displayed
-2025-03-30 18:29:11 [main] INFO  PageActions -Element displayed: true
-2025-03-30 18:29:20 [main] INFO  BasePage -Browser closed successfully.
-2025-03-30 18:29:20 [main] INFO  Hooks -@AFTER: Webpage closed
-2025-03-30 18:31:29 [main] INFO  BasePage -Chrome browser setup completed.
-2025-03-30 18:31:31 [main] INFO  MenuPage -BasePage initialized
-2025-03-30 18:31:33 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b775afb37a871921da98ebbc550628e4)] -> xpath: //*[@id="root"]/div/div/div[3]/div/div/div/div]
-2025-03-30 18:31:33 [main] INFO  PageActions -Waits for element div to be displayed
-2025-03-30 18:31:33 [main] INFO  PageActions -Element displayed: true
-2025-03-30 18:31:33 [main] INFO  TopCitiesSteps -Verified that the user is on the Practo homepage
-2025-03-30 18:31:37 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b775afb37a871921da98ebbc550628e4)] -> css selector: .ReactModal__Content.ReactModal__Content--after-open]
-2025-03-30 18:31:37 [main] INFO  PageActions -Waits for element div to be displayed
-2025-03-30 18:31:37 [main] INFO  PageActions -Element displayed: true
-2025-03-30 18:31:37 [main] INFO  Hooks -@AFTER: Webpage closed
-2025-03-30 18:39:27 [main] INFO  BasePage -Chrome browser setup completed.
-2025-03-30 18:39:31 [main] INFO  MenuPage -BasePage initialized
-2025-03-30 18:39:31 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (504e2f9bac9e4eae028ccbb985edebc6)] -> xpath: //*[@id="root"]/div/div/div[3]/div/div/div/div]
-2025-03-30 18:39:31 [main] INFO  PageActions -Waits for element div to be displayed
-2025-03-30 18:39:31 [main] INFO  PageActions -Element displayed: true
-2025-03-30 18:39:31 [main] INFO  TopCitiesSteps -Verified that the user is on the Practo homepage
-2025-03-30 18:39:35 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (504e2f9bac9e4eae028ccbb985edebc6)] -> css selector: .fc-dialog.fc-choice-dialog]
-2025-03-30 18:39:35 [main] INFO  PageActions -Waits for element div to be displayed
-2025-03-30 18:39:35 [main] INFO  PageActions -Element displayed: true
-2025-03-30 18:39:35 [main] INFO  MenuPage -Clicked 'Do not consent'
-2025-03-30 18:39:36 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (504e2f9bac9e4eae028ccbb985edebc6)] -> css selector: .ReactModal__Content.ReactModal__Content--after-open]
-2025-03-30 18:39:36 [main] INFO  PageActions -Waits for element div to be displayed
-2025-03-30 18:39:36 [main] INFO  PageActions -Element displayed: true
-2025-03-30 18:39:36 [main] INFO  Hooks -@AFTER: Webpage closed
-2025-03-31 22:24:48 [main] INFO  BasePage -Chrome browser setup completed.
-2025-03-31 22:24:53 [main] INFO  MenuPage -BasePage initialized
-2025-03-31 22:24:53 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dabce239b5fbdf26543133286aa270b2)] -> xpath: //*[@id="root"]/div/div/div[3]/div/div/div/div]
-2025-03-31 22:24:53 [main] INFO  PageActions -Waits for element div to be displayed
-2025-03-31 22:24:53 [main] INFO  PageActions -Element displayed: true
-2025-03-31 22:24:53 [main] INFO  TopCitiesSteps -Verified that the user is on the Practo homepage
-2025-03-31 22:24:57 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dabce239b5fbdf26543133286aa270b2)] -> css selector: .fc-dialog.fc-choice-dialog]
-2025-03-31 22:24:58 [main] INFO  PageActions -Waits for element div to be displayed
-2025-03-31 22:24:58 [main] INFO  PageActions -Element displayed: true
-2025-03-31 22:24:58 [main] INFO  MenuPage -Clicked 'Do not consent'
-2025-03-31 22:24:58 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dabce239b5fbdf26543133286aa270b2)] -> css selector: .ReactModal__Content.ReactModal__Content--after-open]
-2025-03-31 22:24:59 [main] INFO  PageActions -Waits for element div to be displayed
-2025-03-31 22:24:59 [main] INFO  PageActions -Element displayed: true
-2025-03-31 22:25:05 [main] INFO  BasePage -Browser closed successfully.
-2025-03-31 22:25:05 [main] INFO  Hooks -@AFTER: Webpage closed
-2025-03-31 22:56:41 [main] INFO  BasePage -Chrome browser setup completed.
-2025-03-31 22:56:47 [main] INFO  MenuPage -BasePage initialized
-2025-03-31 22:56:47 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (af08fbc96f2a307a4b5160cc86e46fd1)] -> xpath: //*[@id="root"]/div/div/div[3]/div/div/div/div]
-2025-03-31 22:56:47 [main] INFO  PageActions -Waits for element div to be displayed
-2025-03-31 22:56:47 [main] INFO  PageActions -Element displayed: true
-2025-03-31 22:56:47 [main] INFO  TopCitiesSteps -Verified that the user is on the Practo homepage
-2025-03-31 22:56:51 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (af08fbc96f2a307a4b5160cc86e46fd1)] -> css selector: .fc-dialog.fc-choice-dialog]
-2025-03-31 22:56:51 [main] INFO  PageActions -Waits for element div to be displayed
-2025-03-31 22:56:51 [main] INFO  PageActions -Element displayed: true
-2025-03-31 22:56:51 [main] INFO  MenuPage -Clicked 'Do not consent'
-2025-03-31 22:56:52 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (af08fbc96f2a307a4b5160cc86e46fd1)] -> css selector: .ReactModal__Content.ReactModal__Content--after-open]
-2025-03-31 22:56:52 [main] INFO  PageActions -Waits for element div to be displayed
-2025-03-31 22:56:52 [main] INFO  PageActions -Element displayed: true
-2025-03-31 22:56:56 [main] INFO  BasePage -Browser closed successfully.
-2025-03-31 22:56:56 [main] INFO  Hooks -@AFTER: Webpage closed
-2025-04-01 09:23:30 [main] INFO  BasePage -Chrome browser setup completed.
-2025-04-01 09:23:34 [main] INFO  MenuPage -MenuPage initialized
-2025-04-01 09:23:34 [main] INFO  PageActions -Entering text 'Ban' into element: [[ChromeDriver: chrome on windows (d47a30d952810c1390b1733f6556d9e3)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
-2025-04-01 09:23:39 [main] INFO  PageActions -Waits for element div to be displayed
-2025-04-01 09:23:40 [main] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (d47a30d952810c1390b1733f6556d9e3)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
-2025-04-01 09:23:45 [main] INFO  PageActions -Waits for element div to be displayed
-2025-04-01 09:23:53 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (d47a30d952810c1390b1733f6556d9e3)] -> xpath: //h1[contains(text(), 'Hospitals in Bangalore')]]
-2025-04-01 09:23:53 [main] INFO  PageActions -Waits for element h1 to be displayed
-2025-04-01 09:23:53 [main] INFO  PageActions -Element displayed: true
-2025-04-01 09:23:56 [main] INFO  BasePage -Browser closed successfully.
-2025-04-01 09:23:56 [main] INFO  Hooks -@AFTER: Webpage closed
+2025-04-01 16:59:22 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-01 16:59:25 [main] INFO  MenuPage -MenuPage initialized
+2025-04-01 16:59:26 [main] INFO  PageActions -Entering text 'Ban' into element: [[ChromeDriver: chrome on windows (669356d59f1138258a0b78e6a7ab7051)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-01 16:59:31 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-01 16:59:31 [main] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (669356d59f1138258a0b78e6a7ab7051)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-01 16:59:36 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-01 16:59:43 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (669356d59f1138258a0b78e6a7ab7051)] -> xpath: //h1[contains(text(), 'Hospitals in Bangalore')]]
+2025-04-01 16:59:43 [main] INFO  PageActions -Waits for element h1 to be displayed
+2025-04-01 16:59:43 [main] INFO  PageActions -Element displayed: true
+2025-04-01 16:59:46 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (669356d59f1138258a0b78e6a7ab7051)] -> css selector: button.fc-button.fc-cta-consent.fc-primary-button]
+2025-04-01 16:59:46 [main] INFO  PageActions -Waits for element button to be displayed
+2025-04-01 16:59:46 [main] INFO  PageActions -Element displayed: true
+2025-04-01 16:59:46 [main] INFO  MenuPage -Clicked 'Do not consent'
+2025-04-01 16:59:46 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (669356d59f1138258a0b78e6a7ab7051)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-01 16:59:46 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 16:59:47 [main] INFO  PageActions -Element displayed: true
+2025-04-01 16:59:47 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (669356d59f1138258a0b78e6a7ab7051)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-01 16:59:47 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 16:59:47 [main] INFO  PageActions -Element displayed: true
+2025-04-01 16:59:47 [main] INFO  MenuPage -Parking was displayed
+2025-04-01 16:59:50 [main] INFO  PageActions -Checking if element is displayed: Proxy element for: DefaultElementLocator 'By.cssSelector: button.fc-button.fc-cta-consent.fc-primary-button'
+2025-04-01 17:03:14 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-01 17:03:18 [main] INFO  MenuPage -MenuPage initialized
+2025-04-01 17:03:18 [main] INFO  PageActions -Entering text 'Ban' into element: [[ChromeDriver: chrome on windows (df31aa6695618de35c7feff90c8ed59b)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-01 17:03:23 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-01 17:03:23 [main] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (df31aa6695618de35c7feff90c8ed59b)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-01 17:03:29 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-01 17:03:35 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (df31aa6695618de35c7feff90c8ed59b)] -> xpath: //h1[contains(text(), 'Hospitals in Bangalore')]]
+2025-04-01 17:03:35 [main] INFO  PageActions -Waits for element h1 to be displayed
+2025-04-01 17:03:35 [main] INFO  PageActions -Element displayed: true
+2025-04-01 17:03:38 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (df31aa6695618de35c7feff90c8ed59b)] -> css selector: button.fc-button.fc-cta-consent.fc-primary-button]
+2025-04-01 17:03:38 [main] INFO  PageActions -Waits for element button to be displayed
+2025-04-01 17:03:38 [main] INFO  PageActions -Element displayed: true
+2025-04-01 17:03:38 [main] INFO  MenuPage -Clicked 'Do not consent'
+2025-04-01 17:03:38 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (df31aa6695618de35c7feff90c8ed59b)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-01 17:03:38 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 17:03:38 [main] INFO  PageActions -Element displayed: true
+2025-04-01 17:03:38 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (df31aa6695618de35c7feff90c8ed59b)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-01 17:03:38 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 17:03:39 [main] INFO  PageActions -Element displayed: true
+2025-04-01 17:03:39 [main] INFO  MenuPage -Parking was displayed
+2025-04-01 17:03:44 [main] INFO  PageActions -Checking if element is displayed: Proxy element for: DefaultElementLocator 'By.cssSelector: button.fc-button.fc-cta-consent.fc-primary-button'
