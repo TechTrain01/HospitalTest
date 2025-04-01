@@ -17,13 +17,12 @@ public class Hooks{
 
 	@Before
 	public void setUp() {
-//		browserSetUp();
 	}
 
 	@After
 	public void tearDown(Scenario scenario) {
 		final byte[] screenshot = ((TakesScreenshot) BasePage.driver).getScreenshotAs(OutputType.BYTES);
-        scenario.attach(screenshot, "image/png", "Screenshot"); // Attach it to the report
+        scenario.attach(screenshot, "image/png", "Screenshot"); 
 		
 		BasePage.closeWeb();
 		logger.info("@AFTER: Webpage closed");
