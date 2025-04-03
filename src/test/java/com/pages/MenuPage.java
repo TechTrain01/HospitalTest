@@ -58,7 +58,7 @@ public class MenuPage extends BasePage {
 	public static WebElement serviceName;
 
 	@FindBy(xpath = "//*[@id=\"root\"]/div/div/div[3]/div/div/div/div")
-	public WebElement homeCards;
+	public static WebElement homeCards;
 
 //MENU PAGE ELEMENTS:
 	@FindBy(xpath = "//h1[contains(text(), 'Hospitals in Bangalore')]")
@@ -133,7 +133,7 @@ public class MenuPage extends BasePage {
 		return pageActions.isElementDisplayed(serviceLocator);
 	}
 
-	public boolean isHomeCardsDisplayed() {
+	public static boolean isHomeCardsDisplayed() {
 		return pageActions.isElementDisplayed(homeCards);
 	}
 

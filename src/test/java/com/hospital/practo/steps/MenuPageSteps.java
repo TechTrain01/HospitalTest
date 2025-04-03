@@ -40,7 +40,7 @@ public class MenuPageSteps {
 	    logger.info("Selected city from dropdown: " + city);
 	}
 
-	@And("the user selects {string} from the service search Field")
+	@And("the user enters {string} from the service search Field")
 	public void the_user_selects_from_the_service_search_field(String service) {
 		home.enterService(service);
 	    logger.info("Entered service: " + service);

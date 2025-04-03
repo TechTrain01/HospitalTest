@@ -1,8 +1,10 @@
 package com.pageTests;
 
 import org.testng.AssertJUnit;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
+import com.pages.BasePage;
 import com.pages.MenuPage;
 import com.utils.PropertiesHandler;
 import com.utils.Utils;
@@ -20,6 +22,12 @@ public class HospitalListingsTest {
 	@Test(priority = 2)
 	public void print_All_Hopsitals_With_Rating_And_Opening(){
 		Utils.writeDataToExcel(mn.extractHospitalInfo(), "Hospitals.xlsx");
+	}
+	
+	
+	@AfterClass
+	public void tearDown() {
+		BasePage.closeWeb();
 	}
 
 }

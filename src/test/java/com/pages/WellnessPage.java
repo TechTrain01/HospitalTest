@@ -126,8 +126,8 @@ public class WellnessPage extends BasePage {
         String expectedBorderColor = Color.fromString("#e0b4b4").asRgba();
         String expectedTextColor = Color.fromString("#9f3a38").asRgba();
         
-        System.out.println("Border Color: " + borderColor);
-        System.out.println("Text Color: " + textColor);
+//        System.out.println("Border Color: " + borderColor);
+//        System.out.println("Text Color: " + textColor);
         
         return borderColor.equals(expectedBorderColor) && textColor.equals(expectedTextColor);
     }

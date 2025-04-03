@@ -15,10 +15,6 @@ import io.cucumber.java.Scenario;
 public class Hooks{
 	private static final Logger logger = LogManager.getLogger(Hooks.class);
 
-	@Before
-	public void setUp() {
-	}
-
 	@After
 	public void tearDown(Scenario scenario) {
 		final byte[] screenshot = ((TakesScreenshot) BasePage.driver).getScreenshotAs(OutputType.BYTES);
