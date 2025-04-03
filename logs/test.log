@@ -137,3 +137,104 @@
 2025-04-01 22:21:08 [main] INFO  PageActions -Waits for element span to be displayed
 2025-04-01 22:21:08 [main] INFO  PageActions -Element displayed: true
 2025-04-01 22:21:08 [main] INFO  MenuPage -Parking was displayed
+2025-04-01 22:37:49 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-01 22:37:55 [main] INFO  MenuPage -MenuPage initialized
+2025-04-01 22:38:01 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-01 22:38:07 [main] INFO  MenuPage -MenuPage initialized
+2025-04-01 22:38:07 [main] INFO  HopsitalParkingPage -MenuPage initialized
+2025-04-01 22:38:08 [main] INFO  PageActions -Entering text 'Ban' into element: [[ChromeDriver: chrome on windows (f6ac405753f5502bcbb1f2ff43cb1bb3)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-01 22:38:13 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-01 22:38:13 [main] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (f6ac405753f5502bcbb1f2ff43cb1bb3)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-01 22:38:18 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-01 22:38:25 [main] INFO  PageActions -Checking if element is displayed: Proxy element for: DefaultElementLocator 'By.xpath: //h1[contains(text(), 'Hospitals in Bangalore')]'
+2025-04-01 22:40:48 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-01 22:40:52 [main] INFO  MenuPage -MenuPage initialized
+2025-04-01 22:40:53 [main] INFO  PageActions -Entering text 'Ban' into element: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-01 22:40:58 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-01 22:40:58 [main] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-01 22:41:03 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-01 22:41:09 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> xpath: //h1[contains(text(), 'Hospitals in Bangalore')]]
+2025-04-01 22:41:09 [main] INFO  PageActions -Waits for element h1 to be displayed
+2025-04-01 22:41:09 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:41:13 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> css selector: button.fc-button.fc-cta-consent.fc-primary-button]
+2025-04-01 22:41:13 [main] INFO  PageActions -Waits for element button to be displayed
+2025-04-01 22:41:13 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:41:13 [main] INFO  MenuPage -Clicked 'Do not consent'
+2025-04-01 22:41:13 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-01 22:41:13 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 22:41:13 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:41:13 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-01 22:41:13 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 22:41:13 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:41:13 [main] INFO  MenuPage -Parking was displayed
+2025-04-01 22:41:18 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-01 22:41:18 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 22:41:18 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:41:18 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-01 22:41:18 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 22:41:18 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:41:18 [main] INFO  MenuPage -Parking was displayed
+2025-04-01 22:41:22 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-01 22:41:22 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 22:41:22 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:41:22 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-01 22:41:22 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 22:41:22 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:41:22 [main] INFO  MenuPage -Parking was displayed
+2025-04-01 22:41:26 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-01 22:41:26 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 22:41:26 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:41:27 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-01 22:41:27 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 22:41:27 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:41:27 [main] INFO  MenuPage -Parking was displayed
+2025-04-01 22:41:30 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-01 22:41:30 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 22:41:30 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:41:30 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-01 22:41:30 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 22:41:30 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:41:30 [main] INFO  MenuPage -Parking was displayed
+2025-04-01 22:41:34 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-01 22:41:34 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 22:41:34 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:41:34 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-01 22:41:34 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 22:41:34 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:41:34 [main] INFO  MenuPage -Parking was displayed
+2025-04-01 22:41:38 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-01 22:41:38 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 22:41:38 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:41:38 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-01 22:41:38 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 22:41:38 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:41:38 [main] INFO  MenuPage -Parking was displayed
+2025-04-01 22:41:41 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-01 22:41:41 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 22:41:41 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:41:42 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-01 22:41:42 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 22:41:42 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:41:42 [main] INFO  MenuPage -Parking was displayed
+2025-04-01 22:41:47 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-01 22:41:47 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 22:41:47 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:41:47 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (dfd197f6e098f78c5b28439465e7e397)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-01 22:41:47 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-01 22:41:47 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:41:47 [main] INFO  MenuPage -Parking was displayed
+2025-04-01 22:42:35 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-01 22:42:38 [main] INFO  MenuPage -BasePage initialized
+2025-04-01 22:42:40 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (45eb8b71bf7c67c32e78395c4fc0b7c6)] -> xpath: //*[@id="root"]/div/div/div[3]/div/div/div/div]
+2025-04-01 22:42:40 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-01 22:42:40 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:42:40 [main] INFO  TopCitiesSteps -Verified that the user is on the Practo homepage
+2025-04-01 22:42:45 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (45eb8b71bf7c67c32e78395c4fc0b7c6)] -> css selector: .fc-dialog.fc-choice-dialog]
+2025-04-01 22:42:45 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-01 22:42:45 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:42:45 [main] INFO  MenuPage -Clicked 'Do not consent'
+2025-04-01 22:42:45 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (45eb8b71bf7c67c32e78395c4fc0b7c6)] -> css selector: .ReactModal__Content.ReactModal__Content--after-open]
+2025-04-01 22:42:45 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-01 22:42:45 [main] INFO  PageActions -Element displayed: true
+2025-04-01 22:42:51 [main] INFO  BasePage -Browser closed successfully.
+2025-04-01 22:42:51 [main] INFO  Hooks -@AFTER: Webpage closed
