@@ -2,46 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-04T12:06:12 BST" name="Default suite" finished-at="2025-04-04T12:06:25 BST" duration-ms="12839">
+  <suite started-at="2025-04-04T17:09:41 BST" name="Default suite" finished-at="2025-04-04T17:09:58 BST" duration-ms="17316">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hospital.practo.runner.CukeRun@52102734]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-04-04T12:06:12 BST" name="Default test" finished-at="2025-04-04T12:06:25 BST" duration-ms="12839">
-      <class name="com.hospital.practo.runner.CukeRun">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.hospital.practo.runner.CukeRun@52102734]" started-at="2025-04-04T12:06:12 BST" name="setUpClass" finished-at="2025-04-04T12:06:12 BST" duration-ms="618" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@58647985]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-04-04T17:09:41 BST" name="Default test" finished-at="2025-04-04T17:09:58 BST" duration-ms="17316">
+      <class name="com.pageTests.HomePageAccessibilityTest">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:com.pageTests.HomePageAccessibilityTest@50fe837a]" started-at="2025-04-04T17:09:41 BST" name="createReport" finished-at="2025-04-04T17:09:41 BST" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hospital.practo.runner.CukeRun@52102734]" started-at="2025-04-04T12:06:12 BST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-04T12:06:24 BST" duration-ms="11981" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check accessibility of various pages"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Accessibility Testing"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- createReport -->
+        <test-method signature="testAccessibility()[pri:0, instance:com.pageTests.HomePageAccessibilityTest@50fe837a]" started-at="2025-04-04T17:09:41 BST" name="testAccessibility" finished-at="2025-04-04T17:09:56 BST" duration-ms="14762" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.hospital.practo.runner.CukeRun@52102734]" started-at="2025-04-04T12:06:24 BST" name="tearDownClass" finished-at="2025-04-04T12:06:25 BST" duration-ms="207" status="PASS">
+        </test-method> <!-- testAccessibility -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pageTests.HomePageAccessibilityTest@50fe837a]" started-at="2025-04-04T17:09:56 BST" name="tearDown" finished-at="2025-04-04T17:09:58 BST" duration-ms="2361" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.hospital.practo.runner.CukeRun -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pageTests.HomePageAccessibilityTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

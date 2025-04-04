@@ -9,6 +9,7 @@ import org.apache.logging.log4j.Logger;
 import org.json.JSONObject;
 import org.openqa.selenium.WebDriver;
 
+import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
 import com.deque.html.axecore.results.AxeResults;
 import com.deque.html.axecore.results.Results;
@@ -17,6 +18,7 @@ import com.deque.html.axecore.selenium.AxeBuilder;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hospital.practo.steps.AccessibilityStep;
+import com.pages.MenuPage;
 
 public class AxeAccessibilityChecker {
 	
@@ -59,5 +61,29 @@ public class AxeAccessibilityChecker {
 //        ExtentCucumberAdapter.addTestStepLog("Accessibility Violations JSON: " + jsonResults.toString(4)); // Pretty print with an indent of 4 spaces
 //        logger.info("Accessibility JSON report added to Extent report.");
 //    }
+	
+	public void axeHome(ExtentTest test) {
+		AxeBuilder bob = new AxeBuilder();
+		
+		try {
+			Results res = bob.analyze(MenuPage.browserSetUp());
+			
+			if(res.violationFree()) {
+				test.pass("No accessibility violations found here");
+			}else {
+				test.fail("Accessibility violations detected on this page");
+				res.getViolations().forEach(violation -> {
+					test.info("Violation:" + violation.getDescription());
+					test.info("Violation:" + violation.getImpact());
+					test.info("Violation:" + violation.getTags());
+				});
+				
+				throw new Exception("Accessibility violations found for this page");
+			}
+		} catch (Exception e) {
+			test.fail("Error during accessibility testing for this page");
+		}
+	}
+	
 
 }
