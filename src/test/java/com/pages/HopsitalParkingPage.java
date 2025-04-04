@@ -11,62 +11,51 @@ import com.utils.PageActions;
 
 public class HopsitalParkingPage{
 
+	// Logger instance for logging information
 	private static final Logger logger = LogManager.getLogger(HopsitalParkingPage.class);
 	WebDriver driver;
 	PageActions pageActions;
 
+	// Constructor to initialize the page elements and setup the page actions
 	public HopsitalParkingPage() {
 		PageFactory.initElements(driver, this);
 		this.pageActions = new PageActions(driver);
 		logger.info("MenuPage initialized");
 	}
 
+	//Each Hospital Page
 	@FindBy(xpath = "//*[@id=\"react-tabs-13441\"]/div/div[1]/div[3]/div/span/span")
 	WebElement readMoreInfoElement;
 
 	@FindBy(css = "span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']")
 	WebElement parkingElement;
 	
-	@FindBy(xpath = "/html/body/div[6]/div[2]/div[2]/div[2]/div/div[1]/h1")
-	private WebElement consentDialog;
-
-	@FindBy(xpath = "/html/body/div[6]/div[2]/div[2]/div[3]/div[2]/button[2]")
-	private WebElement doNotConsentButton;
-	
 	@FindBy(css = "button.fc-button.fc-cta-consent.fc-primary-button")
     WebElement consentButton;
-
-
-//	public void goToPage() {
-//		MenuPage.goToMenuPage(PropertiesHandler.getProperty("city"), PropertiesHandler.getProperty("serviceType"));
-//		MenuPage.clickHospitalName();
-//	}
 	
-	public boolean isConsentDialogDisplayed() {
-        return pageActions.isElementDisplayed(consentDialog);
-    }
-	
+	// Method to check if the consent button is displayed
 	public boolean isConsentButtonDisplayed() {
 		return pageActions.isElementDisplayed(consentButton);
 	}
-
-    public void clickDoNotConsent() {
-        pageActions.clickElement(doNotConsentButton);
-    }
     
+	// Method to click the consent button
     public void clickConsentButton() {
         consentButton.click();
     }
 	
+ // Method to manage consent by clicking the consent button if displayed
 	 public void manageConsent() {
 	    	if(isConsentButtonDisplayed() == true) {
 	    		clickConsentButton();
+	    		// Log the action of clicking 'Do not consent'
 	    		logger.info("Clicked 'Do not consent'");
 	    	}else {
+	    		// Log that the consent dialog was not displayed
 	    		logger.info("Consent dialog not displayed");
 	    	}
 	    }
 
+	// Method to find parking by scrolling down and clicking the read more info element
 	public void findParking() {
 		pageActions.scrollDown(100);
 		pageActions.isElementDisplayed(readMoreInfoElement);
@@ -74,6 +63,7 @@ public class HopsitalParkingPage{
 		pageActions.scrollDown(100);
 	}
 	
+	// Method to check if the parking element is displayed
 	public boolean isParkingDisplayed() {
 		return pageActions.isElementDisplayed(parkingElement);
 	}

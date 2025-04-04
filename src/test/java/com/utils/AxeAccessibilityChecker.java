@@ -9,6 +9,7 @@ import org.apache.logging.log4j.Logger;
 import org.json.JSONObject;
 import org.openqa.selenium.WebDriver;
 
+import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
 import com.deque.html.axecore.results.AxeResults;
 import com.deque.html.axecore.results.Results;
 import com.deque.html.axecore.results.Rule;
@@ -39,14 +40,24 @@ public class AxeAccessibilityChecker {
             logger.error("Error writing accessibility violations to file.", e);
         }
     }
-    
 
-//    public void printViolations(AxeResults results) {
-//        JSONObject responseJson = Results();
-//    }
-//    
-//    public boolean doesContainViolations(AxeResults results) {
-//    	
+	public JSONObject getViolationsAsJson(Results results) {
+		return new JSONObject(results);
+	}
+	
+	public void saveJsonToFile(JSONObject jsonResults, String fileName) {
+		try (FileWriter file = new FileWriter(fileName)) {
+            file.write(jsonResults.toString(4)); // Pretty print with an indent of 4 spaces
+            logger.info("Accessibility report saved to " + fileName);
+        } catch (IOException e) {
+            logger.error("Error saving accessibility report to file: " + e.getMessage());
+        }
+    }
+	
+//	public void addJsonToExtentReport(JSONObject jsonResults) {
+//        // Add JSON report to Extent report using ExtentCucumberAdapter
+//        ExtentCucumberAdapter.addTestStepLog("Accessibility Violations JSON: " + jsonResults.toString(4)); // Pretty print with an indent of 4 spaces
+//        logger.info("Accessibility JSON report added to Extent report.");
 //    }
 
 }

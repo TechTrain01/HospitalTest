@@ -1,5 +1,8 @@
 package com.pages;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -8,30 +11,22 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.util.ArrayList;
-import java.util.List;
 
 import com.utils.PageActions;
-import com.utils.PropertiesHandler;
 
 public class MenuPage extends BasePage {
 
+	// Logger instance for logging information
 	private static final Logger logger = LogManager.getLogger(MenuPage.class);
 	WebDriver driver;
-//	public static PropertiesHandler properties = new PropertiesHandler();
-//	FluentWait<WebDriver> wait1;
 	static PageActions pageActions;
-//	private static final String CITY_FULL_NAME = PropertiesHandler.getProperty("Fullname");
-//	private static final String XPATH_EXPRESSION = "//div[contains(@class, 'c-omni-suggestion-item__content__title') and contains(text(), '" + CITY_FULL_NAME + "')]";
 
+	// Constructor to initialize the page elements and setup the browser
 	public MenuPage() {
 		this.driver = browserSetUp();
 		PageFactory.initElements(driver, this);
 		this.pageActions = new PageActions(driver);
+		// Log the initialization of the MenuPage
 		logger.info("MenuPage initialized");
 	}
 
@@ -39,20 +34,11 @@ public class MenuPage extends BasePage {
 	@FindBy(xpath = "//*[@id=\"c-omni-container\"]/div/div[1]/div/input")
 	public static WebElement cityLocator;
 
-//	public WebElement cityName(String cityName) {
-//		WebDriverWait wait = new WebDriverWait(driver, 10); // 10 seconds wait
-//        return wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='c-omni-suggestion-item__content__title' and text()='" + cityName + "']")));
-//    }
-
 	@FindBy(xpath = "//div[contains(@class, 'c-omni-suggestion-item__content__title') and contains(text(), 'Bangalore')]")
 	public static WebElement cityName;
 
 	@FindBy(xpath = "//*[@id=\"c-omni-container\"]/div/div[2]/div/input")
 	public static WebElement serviceLocator;
-
-//	public WebElement serviceName(String serviceType) {
-//        return driver.findElement(By.xpath("//div[@class='c-omni-suggestion-item__content__title' and text()='" + serviceType + "']"));
-//    } 
 
 	@FindBy(xpath = "//div[contains(@class, 'c-omni-suggestion-item') and .//div[text()='Hospital'] and .//span[text()='TYPE']]")
 	public static WebElement serviceName;
@@ -78,74 +64,79 @@ public class MenuPage extends BasePage {
 
 	@FindBy(css = "line-1")
 	public static WebElement hospitalName;
-	
-	
-	//HOSPITAL PARKING PAGE ELEMENTS
-	
+
+//HOSPITAL PARKING PAGE ELEMENTS
 	@FindBy(css = "div.pure-u-1 > span[data-qa-id='read_more_info']")
-    WebElement readMoreInfoElement;
+	WebElement readMoreInfoElement;
 
 	@FindBy(css = "span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']")
 	WebElement parkingElement;
-	
+
 	@FindBy(xpath = "/html/body/div[6]/div[2]/div[2]/div[2]/div/div[1]/h1")
 	private WebElement consentDialog;
-	
+
 	@FindBy(css = "button.fc-button.fc-cta-consent.fc-primary-button")
-    WebElement consentButton;
-	
-	
-	//HOSPITAL PARKING PAGE METHODS
-	public void clickConsentButton() {
-        consentButton.click();
-    }
-	
+	WebElement consentButton;
+
+//HOSPITAL PARKING PAGE METHODS
+	// Method that returns boolean for appearance of button
 	public boolean isConsentButtonDisplayed() {
 		return pageActions.isElementDisplayed(consentButton);
 	}
-	
-	 public void manageConsent() {
-	    	if(isConsentButtonDisplayed() == true) {
-	    		clickConsentButton();
-	    		logger.info("Clicked 'Do not consent'");
-	    	}
-	    }
 
+	// Method that clicks consentButton
+	public void clickConsentButton() {
+		consentButton.click();
+	}
+
+	// Method that checks isConsentButtonDisplayed before clicking
+	public void manageConsent() {
+		if (isConsentButtonDisplayed() == true) {
+			clickConsentButton();
+			logger.info("Clicked 'Do not consent'");
+		}
+	}
+
+	// Method that navigates to parking amenities
 	public void findParking() {
 		pageActions.scrollDown(500);
 		pageActions.isElementDisplayed(readMoreInfoElement);
 		pageActions.clickElement(readMoreInfoElement);
 		pageActions.scrollDown(300);
 	}
-	
+
+	// Method that returns boolean for appearance of parking
 	public boolean isParkingDisplayed() {
 		return pageActions.isElementDisplayed(parkingElement);
 	}
 
 //MAIN PAGE METHODS:
-
-	// Locator Methods
+	// Method that returns boolean for appearance of cityLocator
 	public boolean isCityLocatorDisplayed() {
 		return pageActions.isElementDisplayed(cityLocator);
 	}
 
+	// Method that returns boolean for appearance of ServiceLocator
 	public boolean isServiceLocatorDisplayed() {
 		return pageActions.isElementDisplayed(serviceLocator);
 	}
 
+	// Method that returns boolean for appearance of homeCard
 	public static boolean isHomeCardsDisplayed() {
 		return pageActions.isElementDisplayed(homeCards);
 	}
 
-	// City Locator methods
+	// Method that clicks on cityLocator
 	public static void clickCityLocator() {
 		pageActions.clickElement(cityLocator);
 	}
 
+	// Method that enters city name as input
 	public static void enterCity(String city) {
 		pageActions.enterText(cityLocator, city);
 	}
 
+	// Method that returns boolean for city cityName
 	public boolean isCityNameDisplayed() {
 		return pageActions.isElementDisplayed(cityName);
 	}
@@ -159,16 +150,19 @@ public class MenuPage extends BasePage {
 		pageActions.enterText(serviceLocator, service);
 	}
 
+	//Returns boolean if serviceName is displayed or not
 	public boolean isServiceNameDisplayed() {
 		return pageActions.isElementDisplayed(serviceName);
 	}
 
+	//clicks on serviceType
 	public static void clickServiceType() {
 		pageActions.clickElement(serviceName);
 	}
 
 //MENU PAGE METHODS
 
+	//Navigates to menu page
 	public static void goToMenuPage(String city, String service) {
 		clickCityLocator();
 		enterCity(city);
@@ -178,32 +172,43 @@ public class MenuPage extends BasePage {
 		pageActions.waitFor(serviceName);
 		clickServiceType();
 	}
+	
+	//metho to click on hospital name
+	public static void clickHospitalName() {
+		pageActions.clickElement(hospitalName);
 
+	}
+
+	//method to check the number of hosipitals
 	public boolean isHospitalNumbersDisplayed() {
 		return pageActions.isElementDisplayed(totalHospitals);
 	}
 
+	//method to check if rating is displayed
 	public boolean isRatingsDisplayed() {
 		return pageActions.isElementDisplayed(rating);
 	}
 
+	//Method to get rating
 	public String getRating() {
 		String ratings = rating.getText();
 		return ratings;
 	}
 
+	//method to get openingtime 
 	public String getOpeningTime() {
 		String Openings = openingTime.getText();
 		return Openings;
 	}
 
+	//Method used to extract list of hospitals that meet requirements
 	public List<String> extractHospitalInfo() {
 		List<String> hospitalInfo = new ArrayList<>();
 		boolean consentManaged = false;
 
 		for (WebElement card : hospitalCards) {
 			try {
-//                 Extract the rating text and convert it to a Double
+				// Extract the rating text and convert it to a Double
 				String ratingText = card.findElement(By.className("c-feedback")).findElement(By.className("u-bold"))
 						.getText();
 				Double rating = Double.parseDouble(ratingText);
@@ -213,11 +218,11 @@ public class MenuPage extends BasePage {
 
 				// Check if the hospital meets the criteria
 				if (openingTime.equals("Open 24x7") && rating >= 3.5) {
-					// Extract the hospital name
+					// Extract the hospital names
 					String title = card.findElement(By.className("line-1")).getText();
+					// Extracts the window handle for the MenuPage
 					String originalWindow = driver.getWindowHandle();
-					System.out.println(originalWindow);
-
+					// Clicks on name of hospital
 					pageActions.clickElement(card.findElement(By.className("line-1")));
 
 					// locating new Tab that appears
@@ -229,19 +234,13 @@ public class MenuPage extends BasePage {
 						}
 					}
 
-					// initialise the parking page class
-//					HopsitalParkingPage parkingPage = new HopsitalParkingPage();
-//					parkingPage.manageConsent();
-//					parkingPage.findParking();
-//					manageConsent();
-					
-					//So that manage consent only occurs once
+					// If statement to check whether the cookie pop up appears
 					if (!consentManaged) {
-	                    manageConsent();
-	                    consentManaged = true; // Set flag to true after managing consent
-	                }
+						manageConsent();
+						consentManaged = true; // Set flag to true after managing consent
+					}
+					// Find parking method called
 					findParking();
-
 					// Check if each hospital website has parking or not.
 					if (isParkingDisplayed() == true) {
 						hospitalInfo.add(title);
@@ -252,21 +251,14 @@ public class MenuPage extends BasePage {
 
 					// go back to original window
 					driver.switchTo().window(originalWindow);
-
 				}
 			} catch (NumberFormatException e) {
-				System.out.println("Invalid rating: " + rating);
+				logger.error("Invalid rating: " + e.getMessage());
 			} catch (NoSuchElementException e) {
-				System.out.println("Element not found: " + e.getMessage());
+				logger.error("Element not found: " + e.getMessage());
 			}
 		}
 
 		return hospitalInfo;
 	}
-
-	public static void clickHospitalName() {
-		pageActions.clickElement(hospitalName);
-
-	}
-
 }
