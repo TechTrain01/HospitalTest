@@ -1,0 +1,16 @@
+2025-04-05 18:06:07 [main] INFO  Report -ExtentReports instance created and configured.
+2025-04-05 18:06:08 [main] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-05 18:06:08 [main] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-05 18:06:13 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-05 18:06:18 [main] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-05 18:06:21 [main] INFO  BasePage -Browser closed successfully.
+2025-04-05 18:06:21 [main] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-05 18:06:22 [main] INFO  Report -ExtentReports resources cleaned up.
+2025-04-05 18:41:41 [main] INFO  Report -ExtentReports instance created and configured.
+2025-04-05 18:41:41 [main] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-05 18:41:41 [main] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-05 18:41:45 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-05 18:41:51 [main] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-05 18:41:54 [main] INFO  BasePage -Browser closed successfully.
+2025-04-05 18:41:54 [main] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-05 18:41:54 [main] INFO  Report -ExtentReports resources cleaned up.

@@ -30,8 +30,8 @@ public class AxeAccessibilityChecker {
     }
 
     public Results analyzePage() {
-        AxeBuilder builder = new AxeBuilder();
-        return builder.analyze(driver);
+    	AxeBuilder bob = new AxeBuilder();
+        return bob.analyze(driver);
     }
     
     public void logViolationsToFile(Results results) {
@@ -63,10 +63,11 @@ public class AxeAccessibilityChecker {
 //    }
 	
 	public void axeHome(ExtentTest test) {
-		AxeBuilder bob = new AxeBuilder();
+//		AxeBuilder bob = new AxeBuilder();
 		
 		try {
-			Results res = bob.analyze(MenuPage.browserSetUp());
+//			Results res = bob.analyze(MenuPage.browserSetUp());
+			Results res = analyzePage();
 			
 			if(res.violationFree()) {
 				test.pass("No accessibility violations found here");
