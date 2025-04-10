@@ -1,16 +1,1470 @@
-2025-04-05 18:06:07 [main] INFO  Report -ExtentReports instance created and configured.
-2025-04-05 18:06:08 [main] INFO  HomePageAccessibilityTest -Starting setup process...
-2025-04-05 18:06:08 [main] INFO  HomePageAccessibilityTest -Setup process completed successfully.
-2025-04-05 18:06:13 [main] INFO  BasePage -Chrome browser setup completed.
-2025-04-05 18:06:18 [main] INFO  HomePageAccessibilityTest -Starting teardown process...
-2025-04-05 18:06:21 [main] INFO  BasePage -Browser closed successfully.
-2025-04-05 18:06:21 [main] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
-2025-04-05 18:06:22 [main] INFO  Report -ExtentReports resources cleaned up.
-2025-04-05 18:41:41 [main] INFO  Report -ExtentReports instance created and configured.
-2025-04-05 18:41:41 [main] INFO  HomePageAccessibilityTest -Starting setup process...
-2025-04-05 18:41:41 [main] INFO  HomePageAccessibilityTest -Setup process completed successfully.
-2025-04-05 18:41:45 [main] INFO  BasePage -Chrome browser setup completed.
-2025-04-05 18:41:51 [main] INFO  HomePageAccessibilityTest -Starting teardown process...
-2025-04-05 18:41:54 [main] INFO  BasePage -Browser closed successfully.
-2025-04-05 18:41:54 [main] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
-2025-04-05 18:41:54 [main] INFO  Report -ExtentReports resources cleaned up.
+2025-04-06 18:10:36 [main] INFO  Report -ExtentReports instance created and configured.
+2025-04-06 18:10:36 [main] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-06 18:10:36 [main] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-06 18:10:43 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-06 18:10:49 [main] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-06 18:10:52 [main] INFO  BasePage -Browser closed successfully.
+2025-04-06 18:10:52 [main] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-06 18:10:53 [main] INFO  Report -ExtentReports resources cleaned up.
+2025-04-06 18:15:17 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-06 18:15:21 [main] INFO  MenuPage -MenuPage initialized
+2025-04-06 18:15:21 [TestNG-test-Test-2] INFO  Report -ExtentReports instance created and configured.
+2025-04-06 18:15:21 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-06 18:15:21 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-06 18:15:21 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-06 18:15:21 [TestNG-test-Test-2] INFO  BasePage -Setup process completed successfully.
+2025-04-06 18:15:21 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-06 18:15:21 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-06 18:15:21 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Banga' into element: [[ChromeDriver: chrome on windows (f7f9b4098ffee1574fd2b63d447b74c6)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-06 18:15:25 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-06 18:15:26 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-06 18:15:27 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (f7f9b4098ffee1574fd2b63d447b74c6)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-06 18:15:30 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-06 18:15:32 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-06 18:15:32 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-06 18:15:32 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-06 18:15:32 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-06 18:15:34 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: Proxy element for: DefaultElementLocator 'By.xpath: //h1[contains(text(), 'Hospitals in Bangalore')]'
+2025-04-06 18:15:55 [TestNG-test-Test-2] INFO  BasePage -Starting data extraction process...
+2025-04-06 18:15:58 [TestNG-test-Test-2] INFO  BasePage -Browser closed successfully.
+2025-04-06 18:15:58 [TestNG-test-Test-2] INFO  BasePage -Teardown process completed successfully.
+2025-04-06 18:15:58 [TestNG-test-Test-2] INFO  Report -ExtentReports resources cleaned up.
+2025-04-06 18:16:42 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-06 18:16:46 [main] INFO  MenuPage -MenuPage initialized
+2025-04-06 18:16:46 [TestNG-test-Test-2] INFO  Report -ExtentReports instance created and configured.
+2025-04-06 18:16:46 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-06 18:16:46 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-06 18:16:46 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-06 18:16:46 [TestNG-test-Test-2] INFO  BasePage -Setup process completed successfully.
+2025-04-06 18:16:46 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-06 18:16:46 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-06 18:16:47 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Banga' into element: [[ChromeDriver: chrome on windows (662ce1e1908fc1891ecfc4c633002a8f)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-06 18:16:50 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-06 18:16:57 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-06 18:16:57 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-06 18:16:57 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (662ce1e1908fc1891ecfc4c633002a8f)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-06 18:16:59 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-06 18:16:59 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-06 18:17:00 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-06 18:17:02 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-06 18:17:12 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (662ce1e1908fc1891ecfc4c633002a8f)] -> xpath: //h1[contains(text(), 'Hospitals in Bangalore')]]
+2025-04-06 18:17:12 [TestNG-test-Test-2] INFO  PageActions -Waits for element h1 to be displayed
+2025-04-06 18:17:12 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-06 18:17:12 [TestNG-test-Test-2] INFO  BasePage -Setup process completed successfully.
+2025-04-06 18:17:12 [TestNG-test-Test-2] INFO  BasePage -Browser closed successfully.
+2025-04-06 18:17:12 [TestNG-test-Test-2] INFO  BasePage -Teardown process completed successfully.
+2025-04-06 18:17:12 [TestNG-test-Test-2] INFO  Report -ExtentReports resources cleaned up.
+2025-04-06 18:24:33 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-06 18:24:37 [main] INFO  MenuPage -MenuPage initialized
+2025-04-06 18:24:38 [TestNG-test-Test-2] INFO  Report -ExtentReports instance created and configured.
+2025-04-06 18:24:38 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-06 18:24:38 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-06 18:24:38 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-06 18:24:38 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-06 18:24:38 [TestNG-test-Test-2] INFO  BasePage -Setup process completed successfully.
+2025-04-06 18:24:38 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-06 18:24:38 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Banga' into element: [[ChromeDriver: chrome on windows (cf70b5de0169d92291c63b940863f21b)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-06 18:24:41 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-06 18:24:43 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-06 18:24:43 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (cf70b5de0169d92291c63b940863f21b)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-06 18:24:46 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-06 18:24:48 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-06 18:24:49 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-06 18:24:49 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-06 18:24:49 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-06 18:24:56 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: Proxy element for: DefaultElementLocator 'By.xpath: //h1[contains(text(), 'Hospitals in Bangalore')]'
+2025-04-06 18:25:06 [TestNG-test-Test-2] INFO  BasePage -Starting data extraction process...
+2025-04-06 18:25:10 [TestNG-test-Test-2] INFO  BasePage -Browser closed successfully.
+2025-04-06 18:25:10 [TestNG-test-Test-2] INFO  BasePage -Teardown process completed successfully.
+2025-04-06 18:25:10 [TestNG-test-Test-2] INFO  Report -ExtentReports resources cleaned up.
+2025-04-06 18:26:27 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-06 18:26:32 [main] INFO  MenuPage -MenuPage initialized
+2025-04-06 18:26:33 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-06 18:26:33 [TestNG-test-Test-2] INFO  Report -ExtentReports instance created and configured.
+2025-04-06 18:26:33 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-06 18:26:33 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-06 18:26:33 [TestNG-test-Test-2] INFO  BasePage -Setup process completed successfully.
+2025-04-06 18:26:33 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-06 18:26:33 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-06 18:26:33 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Bangalore' into element: [[ChromeDriver: chrome on windows (53d1f5c9af687fd53207a20019eecc78)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-06 18:26:37 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-06 18:26:38 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-06 18:26:38 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (53d1f5c9af687fd53207a20019eecc78)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-06 18:26:43 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-06 18:26:44 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-06 18:26:46 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: Proxy element for: DefaultElementLocator 'By.xpath: //h1[contains(text(), 'Hospitals in Bangalore')]'
+2025-04-06 18:26:47 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-06 18:26:47 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-06 18:26:47 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-06 18:26:56 [TestNG-test-Test-2] INFO  BasePage -Starting data extraction process...
+2025-04-06 18:28:59 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-06 18:29:04 [main] INFO  MenuPage -MenuPage initialized
+2025-04-06 18:29:04 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-06 18:29:04 [TestNG-test-Test-2] INFO  Report -ExtentReports instance created and configured.
+2025-04-06 18:29:04 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-06 18:29:04 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-06 18:29:04 [TestNG-test-Test-2] INFO  BasePage -Setup process completed successfully.
+2025-04-06 18:29:04 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-06 18:29:04 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-06 18:29:05 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Bangalore' into element: [[ChromeDriver: chrome on windows (33fd1d85cdf6b41bb711ea3d18a850e8)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-06 18:29:05 [TestNG-test-Test-2] INFO  BasePage -Starting data extraction process...
+2025-04-06 18:29:06 [TestNG-test-Test-2] INFO  BasePage -Data extraction process completed successfully.
+2025-04-06 18:29:08 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-06 18:29:09 [TestNG-test-Test-2] INFO  BasePage -Browser closed successfully.
+2025-04-06 18:29:09 [TestNG-test-Test-2] INFO  BasePage -Teardown process completed successfully.
+2025-04-06 18:29:09 [TestNG-test-Test-2] INFO  Report -ExtentReports resources cleaned up.
+2025-04-06 18:29:14 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-06 18:29:17 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-06 18:29:17 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-06 18:29:17 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-06 18:31:20 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-06 18:31:25 [main] INFO  MenuPage -MenuPage initialized
+2025-04-06 18:31:25 [TestNG-test-Test-2] INFO  Report -ExtentReports instance created and configured.
+2025-04-06 18:31:25 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-06 18:31:25 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-06 18:31:25 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-06 18:31:25 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-06 18:31:25 [TestNG-test-Test-2] INFO  BasePage -Setup process completed successfully.
+2025-04-06 18:31:25 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-06 18:31:25 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Bangalore' into element: [[ChromeDriver: chrome on windows (24bebddcbf03093f848a439ce9fa3667)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-06 18:31:25 [TestNG-test-Test-2] INFO  BasePage -Starting data extraction process...
+2025-04-06 18:31:26 [TestNG-test-Test-2] INFO  BasePage -Data extraction process completed successfully.
+2025-04-06 18:31:29 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-06 18:31:29 [TestNG-test-Test-2] INFO  BasePage -Browser closed successfully.
+2025-04-06 18:31:29 [TestNG-test-Test-2] INFO  BasePage -Teardown process completed successfully.
+2025-04-06 18:31:29 [TestNG-test-Test-2] INFO  Report -ExtentReports resources cleaned up.
+2025-04-06 18:31:34 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-06 18:31:37 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-06 18:31:37 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-06 18:31:37 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-06 20:52:51 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-06 20:52:56 [main] INFO  MenuPage -MenuPage initialized
+2025-04-06 20:52:56 [TestNG-test-Test-2] INFO  Report -ExtentReports instance created and configured.
+2025-04-06 20:52:56 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-06 20:52:56 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-06 20:52:56 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-06 20:52:56 [TestNG-test-Test-2] INFO  BasePage -Setup process completed successfully.
+2025-04-06 20:52:56 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-06 20:52:56 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-06 20:52:57 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Bangalore' into element: [[ChromeDriver: chrome on windows (ef306ee206dfaf4ade5fa4cc62d11c55)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-06 20:53:00 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-06 20:53:02 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-06 20:53:02 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (ef306ee206dfaf4ade5fa4cc62d11c55)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-06 20:53:06 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-06 20:53:07 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-06 20:53:09 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-06 20:53:09 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-06 20:53:09 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-06 20:53:10 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: Proxy element for: DefaultElementLocator 'By.xpath: //h1[contains(text(), 'Hospitals in Bangalore')]'
+2025-04-06 20:53:15 [TestNG-test-Test-2] INFO  BasePage -Starting data extraction process...
+2025-04-06 20:53:27 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-06 20:53:32 [main] INFO  MenuPage -MenuPage initialized
+2025-04-06 20:53:32 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-06 20:53:32 [TestNG-test-Test-2] INFO  Report -ExtentReports instance created and configured.
+2025-04-06 20:53:32 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-06 20:53:32 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-06 20:53:32 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-06 20:53:32 [TestNG-test-Test-2] INFO  BasePage -Setup process completed successfully.
+2025-04-06 20:53:32 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-06 20:53:33 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Bangalore' into element: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-06 20:53:37 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-06 20:53:42 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-06 20:53:43 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-06 20:53:43 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-06 20:53:45 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-06 20:53:45 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-06 20:53:45 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-06 20:53:48 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-06 20:53:57 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> xpath: //h1[contains(text(), 'Hospitals in Bangalore')]]
+2025-04-06 20:53:57 [TestNG-test-Test-2] INFO  PageActions -Waits for element h1 to be displayed
+2025-04-06 20:53:57 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-06 20:53:57 [TestNG-test-Test-2] INFO  BasePage -Setup process completed successfully.
+2025-04-06 20:53:57 [TestNG-test-Test-2] INFO  BasePage -Starting data extraction process...
+2025-04-06 20:54:10 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> css selector: button.fc-button.fc-cta-consent.fc-primary-button]
+2025-04-06 20:54:10 [TestNG-test-Test-2] INFO  PageActions -Waits for element button to be displayed
+2025-04-06 20:54:10 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-06 20:54:10 [TestNG-test-Test-2] INFO  MenuPage -Clicked 'Do not consent'
+2025-04-06 20:54:10 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-06 20:54:10 [TestNG-test-Test-2] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 20:54:10 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-06 20:54:11 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-06 20:54:11 [TestNG-test-Test-2] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 20:54:11 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-06 20:54:11 [TestNG-test-Test-2] INFO  MenuPage -Parking was displayed
+2025-04-06 20:54:15 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-06 20:54:15 [TestNG-test-Test-2] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 20:54:15 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-06 20:54:15 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-06 20:54:15 [TestNG-test-Test-2] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 20:54:15 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-06 20:54:15 [TestNG-test-Test-2] INFO  MenuPage -Parking was displayed
+2025-04-06 20:54:20 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-06 20:54:20 [TestNG-test-Test-2] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 20:54:20 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-06 20:54:20 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-06 20:54:20 [TestNG-test-Test-2] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 20:54:20 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-06 20:54:20 [TestNG-test-Test-2] INFO  MenuPage -Parking was displayed
+2025-04-06 20:54:24 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-06 20:54:24 [TestNG-test-Test-2] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 20:54:24 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-06 20:54:24 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-06 20:54:24 [TestNG-test-Test-2] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 20:54:24 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-06 20:54:24 [TestNG-test-Test-2] INFO  MenuPage -Parking was displayed
+2025-04-06 20:54:28 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-06 20:54:28 [TestNG-test-Test-2] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 20:54:28 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-06 20:54:28 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-06 20:54:28 [TestNG-test-Test-2] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 20:54:28 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-06 20:54:28 [TestNG-test-Test-2] INFO  MenuPage -Parking was displayed
+2025-04-06 20:54:35 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-06 20:54:35 [TestNG-test-Test-2] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 20:54:35 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-06 20:54:35 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-06 20:54:36 [TestNG-test-Test-2] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 20:54:36 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-06 20:54:36 [TestNG-test-Test-2] INFO  MenuPage -Parking was displayed
+2025-04-06 20:54:39 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-06 20:54:40 [TestNG-test-Test-2] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 20:54:40 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-06 20:54:40 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-06 20:54:40 [TestNG-test-Test-2] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 20:54:40 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-06 20:54:40 [TestNG-test-Test-2] INFO  MenuPage -Parking was displayed
+2025-04-06 20:54:43 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-06 20:54:43 [TestNG-test-Test-2] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 20:54:43 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-06 20:54:43 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-06 20:54:44 [TestNG-test-Test-2] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 20:54:44 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-06 20:54:44 [TestNG-test-Test-2] INFO  MenuPage -Parking was displayed
+2025-04-06 20:54:52 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-06 20:54:52 [TestNG-test-Test-2] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 20:54:52 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-06 20:54:52 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (2b626f831009a444c9263fd844982f1b)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-06 20:54:52 [TestNG-test-Test-2] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 20:54:52 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-06 20:54:52 [TestNG-test-Test-2] INFO  MenuPage -Parking was displayed
+2025-04-06 20:54:54 [TestNG-test-Test-2] INFO  BasePage -Data extraction process completed successfully.
+2025-04-06 20:54:54 [TestNG-test-Test-2] INFO  BasePage -Browser closed successfully.
+2025-04-06 20:54:54 [TestNG-test-Test-2] INFO  BasePage -Teardown process completed successfully.
+2025-04-06 20:54:54 [TestNG-test-Test-2] INFO  Report -ExtentReports resources cleaned up.
+2025-04-06 21:52:02 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-06 21:52:07 [main] INFO  MenuPage -MenuPage initialized
+2025-04-06 21:52:07 [main] INFO  Report -ExtentReports instance created and configured.
+2025-04-06 21:52:07 [main] INFO  BasePage -Starting setup process...
+2025-04-06 21:52:07 [main] INFO  BasePage -Setup process completed successfully.
+2025-04-06 21:52:07 [main] INFO  BasePage -Starting setup process...
+2025-04-06 21:52:08 [main] INFO  PageActions -Entering text 'Bangalore' into element: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-06 21:52:13 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-06 21:52:13 [main] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-06 21:52:18 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-06 21:52:26 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> xpath: //h1[contains(text(), 'Hospitals in Bangalore')]]
+2025-04-06 21:52:26 [main] INFO  PageActions -Waits for element h1 to be displayed
+2025-04-06 21:52:26 [main] INFO  PageActions -Element displayed: true
+2025-04-06 21:52:26 [main] INFO  BasePage -Setup process completed successfully.
+2025-04-06 21:52:26 [main] INFO  BasePage -Starting data extraction process...
+2025-04-06 21:52:29 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> css selector: button.fc-button.fc-cta-consent.fc-primary-button]
+2025-04-06 21:52:29 [main] INFO  PageActions -Waits for element button to be displayed
+2025-04-06 21:52:29 [main] INFO  PageActions -Element displayed: true
+2025-04-06 21:52:30 [main] INFO  MenuPage -Clicked 'Do not consent'
+2025-04-06 21:52:30 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-06 21:52:30 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 21:52:30 [main] INFO  PageActions -Element displayed: true
+2025-04-06 21:52:30 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-06 21:52:30 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 21:52:30 [main] INFO  PageActions -Element displayed: true
+2025-04-06 21:52:30 [main] INFO  MenuPage -Parking was displayed
+2025-04-06 21:52:34 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-06 21:52:34 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 21:52:34 [main] INFO  PageActions -Element displayed: true
+2025-04-06 21:52:34 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-06 21:52:34 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 21:52:34 [main] INFO  PageActions -Element displayed: true
+2025-04-06 21:52:34 [main] INFO  MenuPage -Parking was displayed
+2025-04-06 21:52:38 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-06 21:52:38 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 21:52:38 [main] INFO  PageActions -Element displayed: true
+2025-04-06 21:52:38 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-06 21:52:38 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 21:52:38 [main] INFO  PageActions -Element displayed: true
+2025-04-06 21:52:38 [main] INFO  MenuPage -Parking was displayed
+2025-04-06 21:52:41 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-06 21:52:41 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 21:52:41 [main] INFO  PageActions -Element displayed: true
+2025-04-06 21:52:42 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-06 21:52:42 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 21:52:42 [main] INFO  PageActions -Element displayed: true
+2025-04-06 21:52:42 [main] INFO  MenuPage -Parking was displayed
+2025-04-06 21:52:45 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-06 21:52:45 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 21:52:45 [main] INFO  PageActions -Element displayed: true
+2025-04-06 21:52:46 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-06 21:52:46 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 21:52:46 [main] INFO  PageActions -Element displayed: true
+2025-04-06 21:52:46 [main] INFO  MenuPage -Parking was displayed
+2025-04-06 21:52:49 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-06 21:52:50 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 21:52:50 [main] INFO  PageActions -Element displayed: true
+2025-04-06 21:52:50 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-06 21:52:50 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 21:52:50 [main] INFO  PageActions -Element displayed: true
+2025-04-06 21:52:50 [main] INFO  MenuPage -Parking was displayed
+2025-04-06 21:52:53 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-06 21:52:53 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 21:52:53 [main] INFO  PageActions -Element displayed: true
+2025-04-06 21:52:53 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-06 21:52:53 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 21:52:53 [main] INFO  PageActions -Element displayed: true
+2025-04-06 21:52:53 [main] INFO  MenuPage -Parking was displayed
+2025-04-06 21:53:00 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-06 21:53:01 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 21:53:01 [main] INFO  PageActions -Element displayed: true
+2025-04-06 21:53:01 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-06 21:53:01 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 21:53:01 [main] INFO  PageActions -Element displayed: true
+2025-04-06 21:53:01 [main] INFO  MenuPage -Parking was displayed
+2025-04-06 21:53:05 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-06 21:53:05 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 21:53:05 [main] INFO  PageActions -Element displayed: true
+2025-04-06 21:53:05 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (8a75b71b6a266d8619ef5c662d8c3df3)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-06 21:53:05 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-06 21:53:05 [main] INFO  PageActions -Element displayed: true
+2025-04-06 21:53:05 [main] INFO  MenuPage -Parking was displayed
+2025-04-06 21:53:06 [main] WARN  XSSFWorkbook -Sheet 'PractoTest -Bangalore Hospitals.xlsx' will be added with a trimmed name 'PractoTest -Bangalore Hospitals' for MS Excel compliance.
+2025-04-06 21:53:06 [main] INFO  BasePage -Data extraction process completed successfully.
+2025-04-06 21:53:10 [main] INFO  BasePage -Browser closed successfully.
+2025-04-06 21:53:10 [main] INFO  BasePage -Teardown process completed successfully.
+2025-04-06 21:53:10 [main] INFO  Report -ExtentReports resources cleaned up.
+2025-04-07 09:48:37 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 09:48:41 [main] INFO  MenuPage -MenuPage initialized
+2025-04-07 09:48:41 [main] INFO  Report -ExtentReports instance created and configured.
+2025-04-07 09:48:41 [main] INFO  BasePage -Starting setup process...
+2025-04-07 09:48:41 [main] INFO  BasePage -Setup process completed successfully.
+2025-04-07 09:48:41 [main] INFO  BasePage -Starting setup process...
+2025-04-07 09:48:42 [main] INFO  PageActions -Entering text 'Bangalore' into element: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-07 09:48:47 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 09:48:47 [main] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-07 09:48:52 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 09:48:57 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> xpath: //h1[contains(text(), 'Hospitals in Bangalore')]]
+2025-04-07 09:48:57 [main] INFO  PageActions -Waits for element h1 to be displayed
+2025-04-07 09:48:57 [main] INFO  PageActions -Element displayed: true
+2025-04-07 09:48:57 [main] INFO  BasePage -Setup process completed successfully.
+2025-04-07 09:48:58 [main] INFO  BasePage -Starting data extraction process...
+2025-04-07 09:49:03 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> css selector: button.fc-button.fc-cta-consent.fc-primary-button]
+2025-04-07 09:49:03 [main] INFO  PageActions -Waits for element button to be displayed
+2025-04-07 09:49:03 [main] INFO  PageActions -Element displayed: true
+2025-04-07 09:49:03 [main] INFO  MenuPage -Clicked 'Do not consent'
+2025-04-07 09:49:03 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-07 09:49:03 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 09:49:03 [main] INFO  PageActions -Element displayed: true
+2025-04-07 09:49:04 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-07 09:49:04 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 09:49:04 [main] INFO  PageActions -Element displayed: true
+2025-04-07 09:49:04 [main] INFO  MenuPage -Parking was displayed
+2025-04-07 09:49:08 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-07 09:49:09 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 09:49:09 [main] INFO  PageActions -Element displayed: true
+2025-04-07 09:49:09 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-07 09:49:09 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 09:49:09 [main] INFO  PageActions -Element displayed: true
+2025-04-07 09:49:09 [main] INFO  MenuPage -Parking was displayed
+2025-04-07 09:49:13 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-07 09:49:13 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 09:49:14 [main] INFO  PageActions -Element displayed: true
+2025-04-07 09:49:14 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-07 09:49:14 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 09:49:14 [main] INFO  PageActions -Element displayed: true
+2025-04-07 09:49:14 [main] INFO  MenuPage -Parking was displayed
+2025-04-07 09:49:17 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-07 09:49:17 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 09:49:17 [main] INFO  PageActions -Element displayed: true
+2025-04-07 09:49:18 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-07 09:49:18 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 09:49:18 [main] INFO  PageActions -Element displayed: true
+2025-04-07 09:49:18 [main] INFO  MenuPage -Parking was displayed
+2025-04-07 09:49:22 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-07 09:49:22 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 09:49:22 [main] INFO  PageActions -Element displayed: true
+2025-04-07 09:49:22 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-07 09:49:22 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 09:49:22 [main] INFO  PageActions -Element displayed: true
+2025-04-07 09:49:22 [main] INFO  MenuPage -Parking was displayed
+2025-04-07 09:49:26 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-07 09:49:27 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 09:49:27 [main] INFO  PageActions -Element displayed: true
+2025-04-07 09:49:27 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-07 09:49:27 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 09:49:27 [main] INFO  PageActions -Element displayed: true
+2025-04-07 09:49:27 [main] INFO  MenuPage -Parking was displayed
+2025-04-07 09:49:31 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-07 09:49:31 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 09:49:31 [main] INFO  PageActions -Element displayed: true
+2025-04-07 09:49:31 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-07 09:49:31 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 09:49:31 [main] INFO  PageActions -Element displayed: true
+2025-04-07 09:49:31 [main] INFO  MenuPage -Parking was displayed
+2025-04-07 09:49:36 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-07 09:49:36 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 09:49:36 [main] INFO  PageActions -Element displayed: true
+2025-04-07 09:49:36 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-07 09:49:36 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 09:49:36 [main] INFO  PageActions -Element displayed: true
+2025-04-07 09:49:36 [main] INFO  MenuPage -Parking was displayed
+2025-04-07 09:49:40 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-07 09:49:40 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 09:49:40 [main] INFO  PageActions -Element displayed: true
+2025-04-07 09:49:41 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (57ea48aac7bfbb8ddc5b541d895a7680)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-07 09:49:41 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 09:49:41 [main] INFO  PageActions -Element displayed: true
+2025-04-07 09:49:41 [main] INFO  MenuPage -Parking was displayed
+2025-04-07 09:49:42 [main] WARN  XSSFWorkbook -Sheet 'PractoTest -Bangalore Hospitals.xlsx' will be added with a trimmed name 'PractoTest -Bangalore Hospitals' for MS Excel compliance.
+2025-04-07 09:49:42 [main] INFO  BasePage -Data extraction process completed successfully.
+2025-04-07 09:49:48 [main] INFO  BasePage -Browser closed successfully.
+2025-04-07 09:49:48 [main] INFO  BasePage -Teardown process completed successfully.
+2025-04-07 09:49:48 [main] INFO  Report -ExtentReports resources cleaned up.
+2025-04-07 10:29:38 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 10:29:42 [main] INFO  MenuPage -MenuPage initialized
+2025-04-07 10:29:43 [TestNG-test-Test-2] INFO  Report -ExtentReports instance created and configured.
+2025-04-07 10:29:43 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-07 10:29:43 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-07 10:29:43 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-07 10:29:43 [TestNG-test-Test-2] INFO  BasePage -Setup process completed successfully.
+2025-04-07 10:29:43 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-07 10:29:43 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-07 10:29:43 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Bangalore' into element: [[ChromeDriver: chrome on windows (d65313548dee4ae468f978458241622c)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-07 10:29:47 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 10:29:48 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 10:29:49 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (d65313548dee4ae468f978458241622c)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-07 10:29:53 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-07 10:29:54 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 10:29:56 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-07 10:29:56 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-07 10:29:56 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-07 10:29:57 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: Proxy element for: DefaultElementLocator 'By.xpath: //h1[contains(text(), 'Hospitals in Bangalore')]'
+2025-04-07 10:31:26 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 10:31:29 [main] INFO  MenuPage -MenuPage initialized
+2025-04-07 10:31:30 [TestNG-test-Test-2] INFO  Report -ExtentReports instance created and configured.
+2025-04-07 10:31:30 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-07 10:31:30 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-07 10:31:30 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-07 10:31:30 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-07 10:31:30 [TestNG-test-Test-2] INFO  BasePage -Setup process completed successfully.
+2025-04-07 10:31:30 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-07 10:31:30 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Ban' into element: [[ChromeDriver: chrome on windows (d166569d260ac9ccb5224077ab184c8b)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-07 10:31:34 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 10:31:35 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 10:31:35 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (d166569d260ac9ccb5224077ab184c8b)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-07 10:31:39 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-07 10:31:40 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 10:31:42 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-07 10:31:42 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-07 10:31:42 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-07 10:31:43 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: Proxy element for: DefaultElementLocator 'By.xpath: //h1[contains(text(), 'Hospitals in Bangalore')]'
+2025-04-07 10:31:58 [TestNG-test-Test-2] INFO  BasePage -Starting data extraction process...
+2025-04-07 10:32:08 [TestNG-test-Test-2] INFO  BasePage -Browser closed successfully.
+2025-04-07 10:32:08 [TestNG-test-Test-2] INFO  BasePage -Teardown process completed successfully.
+2025-04-07 10:32:08 [TestNG-test-Test-2] INFO  Report -ExtentReports resources cleaned up.
+2025-04-07 10:32:42 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 10:32:46 [main] INFO  MenuPage -MenuPage initialized
+2025-04-07 10:32:46 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-07 10:32:46 [TestNG-test-Test-2] INFO  Report -ExtentReports instance created and configured.
+2025-04-07 10:32:46 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-07 10:32:46 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-07 10:32:46 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-07 10:32:46 [TestNG-test-Test-2] INFO  BasePage -Setup process completed successfully.
+2025-04-07 10:32:46 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-07 10:32:46 [TestNG-test-Test-3] INFO  BasePage -Starting data extraction process...
+2025-04-07 10:32:47 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Ban' into element: [[ChromeDriver: chrome on windows (7b20547947119275c2588ea6ecb61b9d)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-07 10:32:48 [TestNG-test-Test-3] WARN  XSSFWorkbook -Sheet 'PractoTest -Bangalore Hospitals.xlsx' will be added with a trimmed name 'PractoTest -Bangalore Hospitals' for MS Excel compliance.
+2025-04-07 10:32:48 [TestNG-test-Test-3] INFO  BasePage -Data extraction process completed successfully.
+2025-04-07 10:32:50 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 10:32:52 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 10:32:52 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (7b20547947119275c2588ea6ecb61b9d)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-07 10:32:55 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-07 10:32:58 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-07 10:32:58 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-07 10:32:58 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-07 10:33:19 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 10:33:23 [main] INFO  MenuPage -MenuPage initialized
+2025-04-07 10:33:23 [TestNG-test-Test-3] INFO  Report -ExtentReports instance created and configured.
+2025-04-07 10:33:23 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-07 10:33:23 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-07 10:33:23 [TestNG-test-Test-3] INFO  BasePage -Starting setup process...
+2025-04-07 10:33:23 [TestNG-test-Test-3] INFO  BasePage -Setup process completed successfully.
+2025-04-07 10:33:23 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-07 10:33:23 [TestNG-test-Test-3] INFO  BasePage -Starting data extraction process...
+2025-04-07 10:33:23 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-07 10:33:24 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Ban' into element: [[ChromeDriver: chrome on windows (84ac8f66b364cc7656195ee9c7b0f48c)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-07 10:33:24 [TestNG-test-Test-3] WARN  XSSFWorkbook -Sheet 'PractoTest -Bangalore Hospitals.xlsx' will be added with a trimmed name 'PractoTest -Bangalore Hospitals' for MS Excel compliance.
+2025-04-07 10:33:24 [TestNG-test-Test-3] INFO  BasePage -Data extraction process completed successfully.
+2025-04-07 10:33:26 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 10:33:29 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 10:33:29 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (84ac8f66b364cc7656195ee9c7b0f48c)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-07 10:33:31 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-07 10:33:34 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-07 10:33:34 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-07 10:33:34 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 10:33:34 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-07 10:33:43 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (84ac8f66b364cc7656195ee9c7b0f48c)] -> xpath: //h1[contains(text(), 'Hospitals in Bangalore')]]
+2025-04-07 10:33:43 [TestNG-test-Test-2] INFO  PageActions -Waits for element h1 to be displayed
+2025-04-07 10:33:43 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-07 10:33:43 [TestNG-test-Test-2] INFO  BasePage -Setup process completed successfully.
+2025-04-07 10:33:43 [TestNG-test-Test-2] INFO  BasePage -Browser closed successfully.
+2025-04-07 10:33:43 [TestNG-test-Test-2] INFO  BasePage -Teardown process completed successfully.
+2025-04-07 10:33:43 [TestNG-test-Test-2] INFO  Report -ExtentReports resources cleaned up.
+2025-04-07 10:44:28 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 10:44:33 [main] INFO  MenuPage -MenuPage initialized
+2025-04-07 10:44:33 [TestNG-test-Test-3] INFO  Report -ExtentReports instance created and configured.
+2025-04-07 10:44:33 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-07 10:44:33 [TestNG-test-Test-3] INFO  BasePage -Starting setup process...
+2025-04-07 10:44:33 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-07 10:44:33 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-07 10:44:33 [TestNG-test-Test-3] INFO  BasePage -Setup process completed successfully.
+2025-04-07 10:44:33 [TestNG-test-Test-3] INFO  BasePage -Starting data extraction process...
+2025-04-07 10:44:33 [TestNG-test-Test-2] INFO  BasePage -Starting setup process...
+2025-04-07 10:44:33 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Ban' into element: [[ChromeDriver: chrome on windows (a97a0f4769602103e81218df777315b4)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-07 10:44:34 [TestNG-test-Test-3] WARN  XSSFWorkbook -Sheet 'PractoTest -Bangalore Hospitals.xlsx' will be added with a trimmed name 'PractoTest -Bangalore Hospitals' for MS Excel compliance.
+2025-04-07 10:44:34 [TestNG-test-Test-3] INFO  BasePage -Data extraction process completed successfully.
+2025-04-07 10:44:36 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 10:44:38 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 10:44:39 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (a97a0f4769602103e81218df777315b4)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-07 10:44:42 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-07 10:44:44 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-07 10:44:44 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-07 10:44:45 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-07 10:44:49 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 10:44:51 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: Proxy element for: DefaultElementLocator 'By.xpath: //h1[contains(text(), 'Hospitals in Bangalore')]'
+2025-04-07 11:02:36 [main] INFO  Report -ExtentReports instance created and configured.
+2025-04-07 11:02:36 [main] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-07 11:02:36 [main] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-07 11:02:40 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 11:02:44 [main] INFO  BasePage -Navigated to the main page.
+2025-04-07 11:02:45 [main] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-07 11:02:47 [main] INFO  BasePage -Browser closed successfully.
+2025-04-07 11:02:47 [main] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-07 11:02:47 [main] INFO  Report -ExtentReports resources cleaned up.
+2025-04-07 11:03:51 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 11:03:54 [main] INFO  BasePage -Navigated to the main page.
+2025-04-07 11:03:54 [main] INFO  MenuPage -MenuPage initialized
+2025-04-07 11:03:54 [main] INFO  Report -ExtentReports instance created and configured.
+2025-04-07 11:03:54 [main] INFO  HospitalListingsTest -Starting setup process...
+2025-04-07 11:03:54 [main] INFO  HospitalListingsTest -Setup process completed successfully.
+2025-04-07 11:03:54 [main] INFO  HospitalListingsTest -Starting setup process...
+2025-04-07 11:03:54 [main] INFO  PageActions -Entering text 'Ban' into element: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-07 11:03:59 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 11:04:00 [main] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-07 11:04:05 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 11:04:11 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> xpath: //h1[contains(text(), 'Hospitals in Bangalore')]]
+2025-04-07 11:04:11 [main] INFO  PageActions -Waits for element h1 to be displayed
+2025-04-07 11:04:11 [main] INFO  PageActions -Element displayed: true
+2025-04-07 11:04:11 [main] INFO  HospitalListingsTest -Setup process completed successfully.
+2025-04-07 11:04:11 [main] INFO  HospitalListingsTest -Starting data extraction process...
+2025-04-07 11:04:15 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> css selector: button.fc-button.fc-cta-consent.fc-primary-button]
+2025-04-07 11:04:15 [main] INFO  PageActions -Waits for element button to be displayed
+2025-04-07 11:04:15 [main] INFO  PageActions -Element displayed: true
+2025-04-07 11:04:15 [main] INFO  MenuPage -Clicked 'Do not consent'
+2025-04-07 11:04:15 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-07 11:04:15 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 11:04:15 [main] INFO  PageActions -Element displayed: true
+2025-04-07 11:04:15 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-07 11:04:15 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 11:04:15 [main] INFO  PageActions -Element displayed: true
+2025-04-07 11:04:15 [main] INFO  MenuPage -Parking was displayed
+2025-04-07 11:04:20 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-07 11:04:20 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 11:04:20 [main] INFO  PageActions -Element displayed: true
+2025-04-07 11:04:20 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-07 11:04:20 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 11:04:20 [main] INFO  PageActions -Element displayed: true
+2025-04-07 11:04:20 [main] INFO  MenuPage -Parking was displayed
+2025-04-07 11:04:23 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-07 11:04:23 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 11:04:23 [main] INFO  PageActions -Element displayed: true
+2025-04-07 11:04:23 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-07 11:04:23 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 11:04:23 [main] INFO  PageActions -Element displayed: true
+2025-04-07 11:04:23 [main] INFO  MenuPage -Parking was displayed
+2025-04-07 11:04:26 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-07 11:04:26 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 11:04:26 [main] INFO  PageActions -Element displayed: true
+2025-04-07 11:04:26 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-07 11:04:26 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 11:04:26 [main] INFO  PageActions -Element displayed: true
+2025-04-07 11:04:26 [main] INFO  MenuPage -Parking was displayed
+2025-04-07 11:04:29 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-07 11:04:29 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 11:04:29 [main] INFO  PageActions -Element displayed: true
+2025-04-07 11:04:29 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-07 11:04:29 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 11:04:29 [main] INFO  PageActions -Element displayed: true
+2025-04-07 11:04:29 [main] INFO  MenuPage -Parking was displayed
+2025-04-07 11:04:33 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-07 11:04:33 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 11:04:33 [main] INFO  PageActions -Element displayed: true
+2025-04-07 11:04:33 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-07 11:04:33 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 11:04:33 [main] INFO  PageActions -Element displayed: true
+2025-04-07 11:04:33 [main] INFO  MenuPage -Parking was displayed
+2025-04-07 11:04:41 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-07 11:04:41 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 11:04:41 [main] INFO  PageActions -Element displayed: true
+2025-04-07 11:04:41 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-07 11:04:41 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 11:04:41 [main] INFO  PageActions -Element displayed: true
+2025-04-07 11:04:41 [main] INFO  MenuPage -Parking was displayed
+2025-04-07 11:04:45 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-07 11:04:45 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 11:04:45 [main] INFO  PageActions -Element displayed: true
+2025-04-07 11:04:45 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-07 11:04:45 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 11:04:45 [main] INFO  PageActions -Element displayed: true
+2025-04-07 11:04:45 [main] INFO  MenuPage -Parking was displayed
+2025-04-07 11:04:49 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-07 11:04:49 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 11:04:49 [main] INFO  PageActions -Element displayed: true
+2025-04-07 11:04:49 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9695cfd650ac23de1f981ffb05ed0743)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-07 11:04:49 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-07 11:04:49 [main] INFO  PageActions -Element displayed: true
+2025-04-07 11:04:49 [main] INFO  MenuPage -Parking was displayed
+2025-04-07 11:04:50 [main] WARN  XSSFWorkbook -Sheet 'PractoTest -Bangalore Hospitals.xlsx' will be added with a trimmed name 'PractoTest -Bangalore Hospitals' for MS Excel compliance.
+2025-04-07 11:04:50 [main] INFO  HospitalListingsTest -Data extraction process completed successfully.
+2025-04-07 11:04:53 [main] INFO  BasePage -Browser closed successfully.
+2025-04-07 11:04:53 [main] INFO  HospitalListingsTest -Teardown process completed successfully.
+2025-04-07 11:04:53 [main] INFO  Report -ExtentReports resources cleaned up.
+2025-04-07 11:05:40 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 11:05:44 [main] INFO  BasePage -Navigated to the main page.
+2025-04-07 11:05:44 [main] INFO  MenuPage -MenuPage initialized
+2025-04-07 11:05:44 [TestNG-test-Test-2] INFO  Report -ExtentReports instance created and configured.
+2025-04-07 11:05:44 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-07 11:05:44 [TestNG-test-Test-2] INFO  HospitalListingsTest -Starting setup process...
+2025-04-07 11:05:44 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-07 11:05:44 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-07 11:05:44 [TestNG-test-Test-2] INFO  HospitalListingsTest -Setup process completed successfully.
+2025-04-07 11:05:44 [TestNG-test-Test-3] INFO  HospitalListingsTest -Starting data extraction process...
+2025-04-07 11:05:44 [TestNG-test-Test-2] INFO  HospitalListingsTest -Starting setup process...
+2025-04-07 11:05:44 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Ban' into element: [[ChromeDriver: chrome on windows (0650ef9c24c8c090ceb1f9cd63f7d74f)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-07 11:05:44 [TestNG-test-Test-3] WARN  XSSFWorkbook -Sheet 'PractoTest -Bangalore Hospitals.xlsx' will be added with a trimmed name 'PractoTest -Bangalore Hospitals' for MS Excel compliance.
+2025-04-07 11:05:45 [TestNG-test-Test-3] INFO  HospitalListingsTest -Data extraction process completed successfully.
+2025-04-07 11:05:47 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 11:05:49 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 11:05:50 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (0650ef9c24c8c090ceb1f9cd63f7d74f)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-07 11:05:50 [TestNG-test-Test-1] INFO  BasePage -Navigated to the main page.
+2025-04-07 11:05:52 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-07 11:05:55 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 11:05:55 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-07 11:05:55 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-07 11:05:56 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-07 11:06:02 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (0650ef9c24c8c090ceb1f9cd63f7d74f)] -> xpath: //h1[contains(text(), 'Hospitals in Bangalore')]]
+2025-04-07 11:06:02 [TestNG-test-Test-2] INFO  PageActions -Waits for element h1 to be displayed
+2025-04-07 11:06:02 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-07 11:06:02 [TestNG-test-Test-2] INFO  HospitalListingsTest -Setup process completed successfully.
+2025-04-07 11:06:02 [TestNG-test-Test-2] INFO  BasePage -Browser closed successfully.
+2025-04-07 11:06:02 [TestNG-test-Test-2] INFO  HospitalListingsTest -Teardown process completed successfully.
+2025-04-07 11:06:02 [TestNG-test-Test-2] INFO  Report -ExtentReports resources cleaned up.
+2025-04-07 11:42:20 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-07 11:42:20 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-07 11:42:20 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-07 11:42:24 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 11:42:24 [TestNG-test-Test-2] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 11:42:34 [TestNG-test-Test-1] INFO  BasePage -Navigated to the main page.
+2025-04-07 11:42:53 [TestNG-test-Test-2] INFO  BasePage -Navigated to the main page.
+2025-04-07 11:42:53 [TestNG-test-Test-2] INFO  MenuPage -MenuPage initialized
+2025-04-07 11:42:53 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (fa3dfcbc1a71471141208ae270e92fb8)] -> xpath: //*[@id="root"]/div/div/div[3]/div/div/div/div]
+2025-04-07 11:42:53 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 11:42:53 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-07 11:42:53 [TestNG-test-Test-2] INFO  MenuPageSteps -Verified that the user is on the Practo homepage
+2025-04-07 11:42:53 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (fa3dfcbc1a71471141208ae270e92fb8)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-07 11:42:53 [TestNG-test-Test-2] INFO  PageActions -Waits for element input to be displayed
+2025-04-07 11:42:53 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-07 11:42:53 [TestNG-test-Test-2] INFO  MenuPageSteps -Verified that the cityLocator text field is on the Practo homepage
+2025-04-07 11:42:56 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-07 11:42:56 [TestNG-test-Test-2] INFO  BasePage -Browser closed successfully.
+2025-04-07 11:42:56 [TestNG-test-Test-2] INFO  Hooks -@AFTER: Webpage closed
+2025-04-07 11:43:51 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-07 11:43:51 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-07 11:43:51 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-07 11:43:55 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 11:43:55 [TestNG-test-Test-2] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 11:44:40 [TestNG-test-Test-1] INFO  BasePage -Navigated to the main page.
+2025-04-07 11:44:53 [TestNG-test-Test-2] INFO  BasePage -Navigated to the main page.
+2025-04-07 11:44:53 [TestNG-test-Test-2] INFO  MenuPage -MenuPage initialized
+2025-04-07 11:44:53 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (aaba52c5a484170ba0b75193d4b3369d)] -> xpath: //*[@id="root"]/div/div/div[3]/div/div/div/div]
+2025-04-07 11:44:53 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 11:44:53 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-07 11:44:53 [TestNG-test-Test-2] INFO  MenuPageSteps -Verified that the user is on the Practo homepage
+2025-04-07 11:44:53 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (aaba52c5a484170ba0b75193d4b3369d)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-07 11:44:53 [TestNG-test-Test-2] INFO  PageActions -Waits for element input to be displayed
+2025-04-07 11:44:56 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-07 11:44:56 [TestNG-test-Test-2] INFO  BasePage -Browser closed successfully.
+2025-04-07 11:44:56 [TestNG-test-Test-2] INFO  Hooks -@AFTER: Webpage closed
+2025-04-07 11:45:23 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-07 11:45:23 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-07 11:45:23 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-07 11:45:27 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 11:45:28 [TestNG-test-Test-2] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 11:45:40 [TestNG-test-Test-1] INFO  BasePage -Navigated to the main page.
+2025-04-07 11:45:43 [TestNG-test-Test-2] INFO  BasePage -Navigated to the main page.
+2025-04-07 11:45:43 [TestNG-test-Test-2] INFO  MenuPage -MenuPage initialized
+2025-04-07 11:45:44 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (97eab980eff71194f7fbc460bfa025f4)] -> xpath: //*[@id="root"]/div/div/div[3]/div/div/div/div]
+2025-04-07 11:45:44 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 11:45:44 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-07 11:45:44 [TestNG-test-Test-2] INFO  MenuPageSteps -Verified that the user is on the Practo homepage
+2025-04-07 11:45:44 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (97eab980eff71194f7fbc460bfa025f4)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-07 11:45:44 [TestNG-test-Test-2] INFO  PageActions -Waits for element input to be displayed
+2025-04-07 11:45:44 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-07 11:45:44 [TestNG-test-Test-2] INFO  MenuPageSteps -Verified that the cityLocator text field is on the Practo homepage
+2025-04-07 11:45:47 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-07 11:45:47 [TestNG-test-Test-2] INFO  BasePage -Browser closed successfully.
+2025-04-07 11:45:47 [TestNG-test-Test-2] INFO  Hooks -@AFTER: Webpage closed
+2025-04-07 11:46:57 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-07 11:46:57 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-07 11:46:57 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-07 11:47:00 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 11:47:04 [TestNG-test-Test-1] INFO  BasePage -Navigated to the main page.
+2025-04-07 11:47:05 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-07 11:47:08 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-07 11:47:08 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-07 11:47:08 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-07 11:48:39 [TestNG-PoolService-4] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 11:48:41 [TestNG-PoolService-5] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 11:48:42 [TestNG-PoolService-3] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 11:48:43 [TestNG-PoolService-2] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 11:48:43 [TestNG-PoolService-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 11:48:45 [TestNG-PoolService-5] INFO  BasePage -Navigated to the main page.
+2025-04-07 11:48:45 [TestNG-PoolService-5] INFO  MenuPage -WellnessPage initialized
+2025-04-07 11:48:45 [TestNG-PoolService-4] INFO  BasePage -Navigated to the main page.
+2025-04-07 11:48:45 [TestNG-PoolService-4] INFO  MenuPage -WellnessPage initialized
+2025-04-07 11:48:46 [TestNG-PoolService-3] INFO  BasePage -Navigated to the main page.
+2025-04-07 11:48:46 [TestNG-PoolService-3] INFO  MenuPage -WellnessPage initialized
+2025-04-07 11:48:46 [TestNG-PoolService-2] INFO  BasePage -Navigated to the main page.
+2025-04-07 11:48:46 [TestNG-PoolService-2] INFO  MenuPage -BasePage initialized
+2025-04-07 11:48:47 [TestNG-PoolService-1] INFO  BasePage -Navigated to the main page.
+2025-04-07 11:48:47 [TestNG-PoolService-1] INFO  MenuPage -MenuPage initialized
+2025-04-07 11:48:47 [TestNG-PoolService-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (fe84c7405bb1a5af7177ca90a8bfae4b)] -> xpath: //*[@id="root"]/div/div/div[3]/div/div/div/div]
+2025-04-07 11:48:47 [TestNG-PoolService-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (fe84c7405bb1a5af7177ca90a8bfae4b)] -> xpath: //*[@id="root"]/div/div/div[3]/div/div/div/div]
+2025-04-07 11:48:47 [TestNG-PoolService-3] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (fe84c7405bb1a5af7177ca90a8bfae4b)] -> xpath: //*[@id="root"]/div/div/div[1]/div[1]/div[2]/div/div[3]/div[1]/span/div/div[1]]
+2025-04-07 11:48:49 [TestNG-PoolService-5] INFO  BasePage -Browser closed successfully.
+2025-04-07 11:48:49 [TestNG-PoolService-5] INFO  Hooks -@AFTER: Webpage closed
+2025-04-07 12:40:29 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 12:40:33 [main] INFO  BasePage -Navigated to the main page.
+2025-04-07 12:40:33 [main] INFO  MenuPage -MenuPage initialized
+2025-04-07 12:40:33 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b5e06a6260a41e430946b0b4398bd065)] -> xpath: //*[@id="root"]/div/div/div[3]/div/div/div/div]
+2025-04-07 12:40:33 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 12:40:33 [main] INFO  PageActions -Element displayed: true
+2025-04-07 12:40:33 [main] INFO  MenuPageSteps -Verified that the user is on the Practo homepage
+2025-04-07 12:40:33 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b5e06a6260a41e430946b0b4398bd065)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-07 12:40:33 [main] INFO  PageActions -Waits for element input to be displayed
+2025-04-07 12:40:33 [main] INFO  PageActions -Element displayed: true
+2025-04-07 12:40:33 [main] INFO  MenuPageSteps -Verified that the cityLocator text field is on the Practo homepage
+2025-04-07 12:40:33 [main] INFO  PageActions -Entering text 'Ban' into element: [[ChromeDriver: chrome on windows (b5e06a6260a41e430946b0b4398bd065)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-07 12:40:33 [main] INFO  PageActions -Checking if element is displayed: Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class, 'c-omni-suggestion-item__content__title') and contains(text(), 'Bangalore')]'
+2025-04-07 12:40:39 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 12:40:39 [main] INFO  PageActions -Element displayed: true
+2025-04-07 12:40:39 [main] INFO  MenuPageSteps -Selected city from dropdown: Bangalore
+2025-04-07 12:40:39 [main] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (b5e06a6260a41e430946b0b4398bd065)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-07 12:40:39 [main] INFO  MenuPageSteps -Entered service: Hospital
+2025-04-07 12:40:39 [main] INFO  PageActions -Checking if element is displayed: Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class, 'c-omni-suggestion-item') and .//div[text()='Hospital'] and .//span[text()='TYPE']]'
+2025-04-07 12:40:44 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 12:40:44 [main] INFO  PageActions -Element displayed: true
+2025-04-07 12:40:50 [main] INFO  MenuPageSteps -Selected service from dropdown: Hospital
+2025-04-07 12:40:50 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b5e06a6260a41e430946b0b4398bd065)] -> xpath: //h1[contains(text(), 'Hospitals in Bangalore')]]
+2025-04-07 12:40:50 [main] INFO  PageActions -Waits for element h1 to be displayed
+2025-04-07 12:40:50 [main] INFO  PageActions -Element displayed: true
+2025-04-07 12:40:50 [main] INFO  MenuPageSteps -Element succefully displayed: [[ChromeDriver: chrome on windows (b5e06a6260a41e430946b0b4398bd065)] -> xpath: //h1[contains(text(), 'Hospitals in Bangalore')]]
+2025-04-07 12:40:53 [main] INFO  BasePage -Browser closed successfully.
+2025-04-07 12:40:53 [main] INFO  Hooks -@AFTER: Webpage closed
+2025-04-07 12:40:56 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 12:40:59 [main] INFO  BasePage -Navigated to the main page.
+2025-04-07 12:40:59 [main] INFO  MenuPage -BasePage initialized
+2025-04-07 12:40:59 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (6140ad4df353b73355fd09bef2fdc094)] -> xpath: //*[@id="root"]/div/div/div[3]/div/div/div/div]
+2025-04-07 12:40:59 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 12:40:59 [main] INFO  PageActions -Element displayed: true
+2025-04-07 12:40:59 [main] INFO  TopCitiesSteps -Verified that the user is on the Practo homepage
+2025-04-07 12:41:05 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (6140ad4df353b73355fd09bef2fdc094)] -> css selector: .fc-dialog.fc-choice-dialog]
+2025-04-07 12:41:05 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 12:41:05 [main] INFO  PageActions -Element displayed: true
+2025-04-07 12:41:05 [main] INFO  MenuPage -Clicked 'Do not consent'
+2025-04-07 12:41:05 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (6140ad4df353b73355fd09bef2fdc094)] -> css selector: .ReactModal__Content.ReactModal__Content--after-open]
+2025-04-07 12:41:06 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 12:41:06 [main] INFO  PageActions -Element displayed: true
+2025-04-07 12:41:12 [main] INFO  BasePage -Browser closed successfully.
+2025-04-07 12:41:12 [main] INFO  Hooks -@AFTER: Webpage closed
+2025-04-07 12:41:15 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 12:41:19 [main] INFO  BasePage -Navigated to the main page.
+2025-04-07 12:41:19 [main] INFO  MenuPage -WellnessPage initialized
+2025-04-07 12:41:19 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9a1dad17415cb26990669a3fddc0e0fd)] -> xpath: //*[@id="root"]/div/div/div[1]/div[1]/div[2]/div/div[3]/div[1]/span/div/div[1]]
+2025-04-07 12:41:19 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 12:41:19 [main] INFO  PageActions -Element displayed: true
+2025-04-07 12:41:22 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (9a1dad17415cb26990669a3fddc0e0fd)] -> css selector: .form-container]
+2025-04-07 12:41:22 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 12:41:22 [main] INFO  PageActions -Element displayed: true
+2025-04-07 12:41:22 [main] INFO  PageActions -Entering text 'MichealScott' into element: [[ChromeDriver: chrome on windows (9a1dad17415cb26990669a3fddc0e0fd)] -> id: name]
+2025-04-07 12:41:23 [main] INFO  PageActions -Entering text 'DunderMifflin' into element: [[ChromeDriver: chrome on windows (9a1dad17415cb26990669a3fddc0e0fd)] -> id: organizationName]
+2025-04-07 12:41:23 [main] INFO  PageActions -Entering text '09876543210' into element: [[ChromeDriver: chrome on windows (9a1dad17415cb26990669a3fddc0e0fd)] -> id: contactNumber]
+2025-04-07 12:41:23 [main] INFO  PageActions -Entering text 'M.Scott-Dunder.com' into element: [[ChromeDriver: chrome on windows (9a1dad17415cb26990669a3fddc0e0fd)] -> id: officialEmailId]
+2025-04-07 12:41:23 [main] INFO  PageActions -Selecting value '501-1000' from dropdown: [[ChromeDriver: chrome on windows (9a1dad17415cb26990669a3fddc0e0fd)] -> id: organizationSize]
+2025-04-07 12:41:23 [main] INFO  PageActions -Selecting value 'Taking a demo' from dropdown: [[ChromeDriver: chrome on windows (9a1dad17415cb26990669a3fddc0e0fd)] -> id: interestedIn]
+2025-04-07 12:41:27 [main] INFO  BasePage -Browser closed successfully.
+2025-04-07 12:41:27 [main] INFO  Hooks -@AFTER: Webpage closed
+2025-04-07 12:41:31 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 12:41:34 [main] INFO  BasePage -Navigated to the main page.
+2025-04-07 12:41:34 [main] INFO  MenuPage -WellnessPage initialized
+2025-04-07 12:41:34 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (f00a97fb588b05844009860d3924ce14)] -> xpath: //*[@id="root"]/div/div/div[1]/div[1]/div[2]/div/div[3]/div[1]/span/div/div[1]]
+2025-04-07 12:41:34 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 12:41:34 [main] INFO  PageActions -Element displayed: true
+2025-04-07 12:42:05 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (f00a97fb588b05844009860d3924ce14)] -> css selector: .form-container]
+2025-04-07 12:42:05 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 12:42:05 [main] INFO  PageActions -Element displayed: true
+2025-04-07 12:42:05 [main] INFO  PageActions -Entering text 'JimHalpert' into element: [[ChromeDriver: chrome on windows (f00a97fb588b05844009860d3924ce14)] -> id: name]
+2025-04-07 12:42:05 [main] INFO  PageActions -Entering text 'DunderMifflin' into element: [[ChromeDriver: chrome on windows (f00a97fb588b05844009860d3924ce14)] -> id: organizationName]
+2025-04-07 12:42:05 [main] INFO  PageActions -Entering text '12345' into element: [[ChromeDriver: chrome on windows (f00a97fb588b05844009860d3924ce14)] -> id: contactNumber]
+2025-04-07 12:42:05 [main] INFO  PageActions -Entering text 'J.Halpert@Dunder.com' into element: [[ChromeDriver: chrome on windows (f00a97fb588b05844009860d3924ce14)] -> id: officialEmailId]
+2025-04-07 12:42:06 [main] INFO  PageActions -Selecting value '501-1000' from dropdown: [[ChromeDriver: chrome on windows (f00a97fb588b05844009860d3924ce14)] -> id: organizationSize]
+2025-04-07 12:42:06 [main] INFO  PageActions -Selecting value 'Taking a demo' from dropdown: [[ChromeDriver: chrome on windows (f00a97fb588b05844009860d3924ce14)] -> id: interestedIn]
+2025-04-07 12:42:09 [main] INFO  BasePage -Browser closed successfully.
+2025-04-07 12:42:09 [main] INFO  Hooks -@AFTER: Webpage closed
+2025-04-07 12:42:12 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 12:42:15 [main] INFO  BasePage -Navigated to the main page.
+2025-04-07 12:42:15 [main] INFO  MenuPage -WellnessPage initialized
+2025-04-07 12:42:15 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (af3c0097a10efb522c0800797f96102b)] -> xpath: //*[@id="root"]/div/div/div[1]/div[1]/div[2]/div/div[3]/div[1]/span/div/div[1]]
+2025-04-07 12:42:15 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 12:42:15 [main] INFO  PageActions -Element displayed: true
+2025-04-07 12:42:17 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (af3c0097a10efb522c0800797f96102b)] -> css selector: .form-container]
+2025-04-07 12:42:17 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 12:42:17 [main] INFO  PageActions -Element displayed: true
+2025-04-07 12:42:17 [main] INFO  PageActions -Entering text 'DwightSchrute' into element: [[ChromeDriver: chrome on windows (af3c0097a10efb522c0800797f96102b)] -> id: name]
+2025-04-07 12:42:17 [main] INFO  PageActions -Entering text 'DunderMifflin' into element: [[ChromeDriver: chrome on windows (af3c0097a10efb522c0800797f96102b)] -> id: organizationName]
+2025-04-07 12:42:18 [main] INFO  PageActions -Entering text '07123123123' into element: [[ChromeDriver: chrome on windows (af3c0097a10efb522c0800797f96102b)] -> id: contactNumber]
+2025-04-07 12:42:18 [main] INFO  PageActions -Entering text 'D.Schrute@Dunder.com' into element: [[ChromeDriver: chrome on windows (af3c0097a10efb522c0800797f96102b)] -> id: officialEmailId]
+2025-04-07 12:42:18 [main] INFO  PageActions -Selecting value '501-1000' from dropdown: [[ChromeDriver: chrome on windows (af3c0097a10efb522c0800797f96102b)] -> id: organizationSize]
+2025-04-07 12:42:18 [main] INFO  PageActions -Selecting value 'Taking a demo' from dropdown: [[ChromeDriver: chrome on windows (af3c0097a10efb522c0800797f96102b)] -> id: interestedIn]
+2025-04-07 12:42:18 [main] INFO  PageActions -Checking if element is displayed: Proxy element for: DefaultElementLocator 'By.cssSelector: .ReactModal__Content.ReactModal__Content--after-open'
+2025-04-07 12:42:23 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 12:42:23 [main] INFO  PageActions -Element displayed: true
+2025-04-07 12:42:26 [main] INFO  BasePage -Browser closed successfully.
+2025-04-07 12:42:26 [main] INFO  Hooks -@AFTER: Webpage closed
+2025-04-07 12:44:46 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 12:44:50 [main] INFO  BasePage -Navigated to the main page.
+2025-04-07 12:44:50 [main] INFO  MenuPage -WellnessPage initialized
+2025-04-07 12:44:50 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (1675d798484e50572e3c44b49dccb260)] -> xpath: //*[@id="root"]/div/div/div[1]/div[1]/div[2]/div/div[3]/div[1]/span/div/div[1]]
+2025-04-07 12:44:50 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 12:44:50 [main] INFO  PageActions -Element displayed: true
+2025-04-07 12:44:52 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (1675d798484e50572e3c44b49dccb260)] -> css selector: .form-container]
+2025-04-07 12:44:52 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 12:44:52 [main] INFO  PageActions -Element displayed: true
+2025-04-07 12:44:52 [main] INFO  PageActions -Entering text 'MichealScott' into element: [[ChromeDriver: chrome on windows (1675d798484e50572e3c44b49dccb260)] -> id: name]
+2025-04-07 12:44:53 [main] INFO  PageActions -Entering text 'DunderMifflin' into element: [[ChromeDriver: chrome on windows (1675d798484e50572e3c44b49dccb260)] -> id: organizationName]
+2025-04-07 12:44:53 [main] INFO  PageActions -Entering text '09876543210' into element: [[ChromeDriver: chrome on windows (1675d798484e50572e3c44b49dccb260)] -> id: contactNumber]
+2025-04-07 12:44:53 [main] INFO  PageActions -Entering text 'M.Scott-Dunder.com' into element: [[ChromeDriver: chrome on windows (1675d798484e50572e3c44b49dccb260)] -> id: officialEmailId]
+2025-04-07 12:44:53 [main] INFO  PageActions -Selecting value '501-1000' from dropdown: [[ChromeDriver: chrome on windows (1675d798484e50572e3c44b49dccb260)] -> id: organizationSize]
+2025-04-07 12:44:53 [main] INFO  PageActions -Selecting value 'Taking a demo' from dropdown: [[ChromeDriver: chrome on windows (1675d798484e50572e3c44b49dccb260)] -> id: interestedIn]
+2025-04-07 12:44:57 [main] INFO  BasePage -Browser closed successfully.
+2025-04-07 12:44:57 [main] INFO  Hooks -@AFTER: Webpage closed
+2025-04-07 12:45:00 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-07 12:45:04 [main] INFO  BasePage -Navigated to the main page.
+2025-04-07 12:45:04 [main] INFO  MenuPage -WellnessPage initialized
+2025-04-07 12:45:04 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (e401909750cca26093d48fe982a7cc41)] -> xpath: //*[@id="root"]/div/div/div[1]/div[1]/div[2]/div/div[3]/div[1]/span/div/div[1]]
+2025-04-07 12:45:04 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 12:45:04 [main] INFO  PageActions -Element displayed: true
+2025-04-07 12:45:06 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (e401909750cca26093d48fe982a7cc41)] -> css selector: .form-container]
+2025-04-07 12:45:06 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-07 12:45:06 [main] INFO  PageActions -Element displayed: true
+2025-04-07 12:45:07 [main] INFO  PageActions -Entering text 'JimHalpert' into element: [[ChromeDriver: chrome on windows (e401909750cca26093d48fe982a7cc41)] -> id: name]
+2025-04-07 12:45:07 [main] INFO  PageActions -Entering text 'DunderMifflin' into element: [[ChromeDriver: chrome on windows (e401909750cca26093d48fe982a7cc41)] -> id: organizationName]
+2025-04-07 12:45:07 [main] INFO  PageActions -Entering text '12345' into element: [[ChromeDriver: chrome on windows (e401909750cca26093d48fe982a7cc41)] -> id: contactNumber]
+2025-04-07 12:45:07 [main] INFO  PageActions -Entering text 'J.Halpert@Dunder.com' into element: [[ChromeDriver: chrome on windows (e401909750cca26093d48fe982a7cc41)] -> id: officialEmailId]
+2025-04-07 12:45:07 [main] INFO  PageActions -Selecting value '501-1000' from dropdown: [[ChromeDriver: chrome on windows (e401909750cca26093d48fe982a7cc41)] -> id: organizationSize]
+2025-04-07 12:45:07 [main] INFO  PageActions -Selecting value 'Taking a demo' from dropdown: [[ChromeDriver: chrome on windows (e401909750cca26093d48fe982a7cc41)] -> id: interestedIn]
+2025-04-07 12:45:11 [main] INFO  BasePage -Browser closed successfully.
+2025-04-07 12:45:11 [main] INFO  Hooks -@AFTER: Webpage closed
+2025-04-08 13:19:56 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-08 13:20:15 [main] INFO  BasePage -Navigated to the main page.
+2025-04-08 13:20:15 [main] INFO  MenuPage -MenuPage initialized
+2025-04-08 13:20:16 [main] INFO  Report -ExtentReports instance created and configured.
+2025-04-08 13:20:16 [main] INFO  HospitalListingsTest -Starting setup process...
+2025-04-08 13:20:16 [main] INFO  HospitalListingsTest -Setup process completed successfully.
+2025-04-08 13:20:16 [main] INFO  HospitalListingsTest -Starting setup process...
+2025-04-08 13:20:16 [main] INFO  PageActions -Entering text 'Ban' into element: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-08 13:20:21 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-08 13:20:21 [main] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-08 13:20:26 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-08 13:20:34 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> xpath: //h1[contains(text(), 'Hospitals in Bangalore')]]
+2025-04-08 13:20:34 [main] INFO  PageActions -Waits for element h1 to be displayed
+2025-04-08 13:20:34 [main] INFO  PageActions -Element displayed: true
+2025-04-08 13:20:34 [main] INFO  HospitalListingsTest -Setup process completed successfully.
+2025-04-08 13:20:34 [main] INFO  HospitalListingsTest -Starting data extraction process...
+2025-04-08 13:20:37 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> css selector: button.fc-button.fc-cta-consent.fc-primary-button]
+2025-04-08 13:20:37 [main] INFO  PageActions -Waits for element button to be displayed
+2025-04-08 13:20:38 [main] INFO  PageActions -Element displayed: true
+2025-04-08 13:20:38 [main] INFO  MenuPage -Clicked 'Do not consent'
+2025-04-08 13:20:38 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-08 13:20:38 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-08 13:20:38 [main] INFO  PageActions -Element displayed: true
+2025-04-08 13:20:38 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-08 13:20:38 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-08 13:20:38 [main] INFO  PageActions -Element displayed: true
+2025-04-08 13:20:38 [main] INFO  MenuPage -Parking was displayed
+2025-04-08 13:20:42 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-08 13:20:42 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-08 13:20:42 [main] INFO  PageActions -Element displayed: true
+2025-04-08 13:20:42 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-08 13:20:42 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-08 13:20:42 [main] INFO  PageActions -Element displayed: true
+2025-04-08 13:20:42 [main] INFO  MenuPage -Parking was displayed
+2025-04-08 13:20:46 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-08 13:20:46 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-08 13:20:46 [main] INFO  PageActions -Element displayed: true
+2025-04-08 13:20:46 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-08 13:20:46 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-08 13:20:46 [main] INFO  PageActions -Element displayed: true
+2025-04-08 13:20:46 [main] INFO  MenuPage -Parking was displayed
+2025-04-08 13:20:51 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-08 13:20:51 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-08 13:20:51 [main] INFO  PageActions -Element displayed: true
+2025-04-08 13:20:51 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-08 13:20:52 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-08 13:20:52 [main] INFO  PageActions -Element displayed: true
+2025-04-08 13:20:52 [main] INFO  MenuPage -Parking was displayed
+2025-04-08 13:20:55 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-08 13:20:56 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-08 13:20:56 [main] INFO  PageActions -Element displayed: true
+2025-04-08 13:20:56 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-08 13:20:56 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-08 13:20:56 [main] INFO  PageActions -Element displayed: true
+2025-04-08 13:20:56 [main] INFO  MenuPage -Parking was displayed
+2025-04-08 13:21:02 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-08 13:21:02 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-08 13:21:02 [main] INFO  PageActions -Element displayed: true
+2025-04-08 13:21:02 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-08 13:21:02 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-08 13:21:02 [main] INFO  PageActions -Element displayed: true
+2025-04-08 13:21:02 [main] INFO  MenuPage -Parking was displayed
+2025-04-08 13:21:06 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-08 13:21:07 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-08 13:21:07 [main] INFO  PageActions -Element displayed: true
+2025-04-08 13:21:07 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-08 13:21:07 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-08 13:21:07 [main] INFO  PageActions -Element displayed: true
+2025-04-08 13:21:07 [main] INFO  MenuPage -Parking was displayed
+2025-04-08 13:21:11 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-08 13:21:11 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-08 13:21:11 [main] INFO  PageActions -Element displayed: true
+2025-04-08 13:21:11 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-08 13:21:11 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-08 13:21:11 [main] INFO  PageActions -Element displayed: true
+2025-04-08 13:21:11 [main] INFO  MenuPage -Parking was displayed
+2025-04-08 13:21:16 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-08 13:21:17 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-08 13:21:17 [main] INFO  PageActions -Element displayed: true
+2025-04-08 13:21:17 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (872a645d1052836e095c3c650ee068f2)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-08 13:21:17 [main] INFO  PageActions -Waits for element span to be displayed
+2025-04-08 13:21:17 [main] INFO  PageActions -Element displayed: true
+2025-04-08 13:21:17 [main] INFO  MenuPage -Parking was displayed
+2025-04-08 13:21:18 [main] WARN  XSSFWorkbook -Sheet 'PractoTest -Bangalore Hospitals.xlsx' will be added with a trimmed name 'PractoTest -Bangalore Hospitals' for MS Excel compliance.
+2025-04-08 13:21:19 [main] INFO  HospitalListingsTest -Data extraction process completed successfully.
+2025-04-08 13:21:23 [main] INFO  BasePage -Browser closed successfully.
+2025-04-08 13:21:23 [main] INFO  HospitalListingsTest -Teardown process completed successfully.
+2025-04-08 13:21:24 [main] INFO  Report -ExtentReports resources cleaned up.
+2025-04-09 10:44:15 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-09 10:44:18 [main] INFO  BasePage -Navigated to the main page.
+2025-04-09 10:44:18 [main] INFO  MenuPage -WellnessPage initialized
+2025-04-09 10:44:18 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (ce7dffd6488bb3e5f2b983beeca6d66a)] -> xpath: //*[@id="root"]/div/div/div[1]/div[1]/div[2]/div/div[3]/div[1]/span/div/div[1]]
+2025-04-09 10:44:18 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-09 10:44:18 [main] INFO  PageActions -Element displayed: true
+2025-04-09 10:44:22 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (ce7dffd6488bb3e5f2b983beeca6d66a)] -> css selector: .form-container]
+2025-04-09 10:44:22 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-09 10:44:22 [main] INFO  PageActions -Element displayed: true
+2025-04-09 10:44:22 [main] INFO  PageActions -Entering text 'MichealScott' into element: [[ChromeDriver: chrome on windows (ce7dffd6488bb3e5f2b983beeca6d66a)] -> id: name]
+2025-04-09 10:44:22 [main] INFO  PageActions -Entering text 'DunderMifflin' into element: [[ChromeDriver: chrome on windows (ce7dffd6488bb3e5f2b983beeca6d66a)] -> id: organizationName]
+2025-04-09 10:44:23 [main] INFO  PageActions -Entering text '09876543210' into element: [[ChromeDriver: chrome on windows (ce7dffd6488bb3e5f2b983beeca6d66a)] -> id: contactNumber]
+2025-04-09 10:44:23 [main] INFO  PageActions -Entering text 'M.Scott-Dunder.com' into element: [[ChromeDriver: chrome on windows (ce7dffd6488bb3e5f2b983beeca6d66a)] -> id: officialEmailId]
+2025-04-09 10:44:23 [main] INFO  PageActions -Selecting value '501-1000' from dropdown: [[ChromeDriver: chrome on windows (ce7dffd6488bb3e5f2b983beeca6d66a)] -> id: organizationSize]
+2025-04-09 10:44:23 [main] INFO  PageActions -Selecting value 'Taking a demo' from dropdown: [[ChromeDriver: chrome on windows (ce7dffd6488bb3e5f2b983beeca6d66a)] -> id: interestedIn]
+2025-04-09 10:44:26 [main] INFO  BasePage -Browser closed successfully.
+2025-04-09 10:44:26 [main] INFO  Hooks -@AFTER: Webpage closed
+2025-04-09 10:44:29 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-09 10:44:32 [main] INFO  BasePage -Navigated to the main page.
+2025-04-09 10:44:32 [main] INFO  MenuPage -WellnessPage initialized
+2025-04-09 10:44:32 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (20caa2eb5f32ff25f7045f6be809a1e7)] -> xpath: //*[@id="root"]/div/div/div[1]/div[1]/div[2]/div/div[3]/div[1]/span/div/div[1]]
+2025-04-09 10:44:32 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-09 10:44:32 [main] INFO  PageActions -Element displayed: true
+2025-04-09 10:44:35 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (20caa2eb5f32ff25f7045f6be809a1e7)] -> css selector: .form-container]
+2025-04-09 10:44:35 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-09 10:44:35 [main] INFO  PageActions -Element displayed: true
+2025-04-09 10:44:35 [main] INFO  PageActions -Entering text 'JimHalpert' into element: [[ChromeDriver: chrome on windows (20caa2eb5f32ff25f7045f6be809a1e7)] -> id: name]
+2025-04-09 10:44:35 [main] INFO  PageActions -Entering text 'DunderMifflin' into element: [[ChromeDriver: chrome on windows (20caa2eb5f32ff25f7045f6be809a1e7)] -> id: organizationName]
+2025-04-09 10:44:35 [main] INFO  PageActions -Entering text '12345' into element: [[ChromeDriver: chrome on windows (20caa2eb5f32ff25f7045f6be809a1e7)] -> id: contactNumber]
+2025-04-09 10:44:36 [main] INFO  PageActions -Entering text 'J.Halpert@Dunder.com' into element: [[ChromeDriver: chrome on windows (20caa2eb5f32ff25f7045f6be809a1e7)] -> id: officialEmailId]
+2025-04-09 10:44:36 [main] INFO  PageActions -Selecting value '501-1000' from dropdown: [[ChromeDriver: chrome on windows (20caa2eb5f32ff25f7045f6be809a1e7)] -> id: organizationSize]
+2025-04-09 10:44:36 [main] INFO  PageActions -Selecting value 'Taking a demo' from dropdown: [[ChromeDriver: chrome on windows (20caa2eb5f32ff25f7045f6be809a1e7)] -> id: interestedIn]
+2025-04-09 10:44:41 [main] INFO  BasePage -Browser closed successfully.
+2025-04-09 10:44:41 [main] INFO  Hooks -@AFTER: Webpage closed
+2025-04-09 13:06:36 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-09 13:06:40 [main] INFO  BasePage -Navigated to the main page.
+2025-04-09 13:06:40 [main] INFO  MenuPage -MenuPage initialized
+2025-04-09 13:06:40 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-09 13:06:40 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-09 13:06:40 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-09 13:06:45 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-09 13:06:47 [TestNG-test-Test-1] INFO  BasePage -Navigated to the main page.
+2025-04-09 13:06:52 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-09 13:06:55 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-09 13:06:55 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-09 13:06:55 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-09 13:06:55 [TestNG-test-Test-1] INFO  HospitalListingsTest -Starting setup process...
+2025-04-09 13:06:55 [TestNG-test-Test-1] INFO  HospitalListingsTest -Setup process completed successfully.
+2025-04-09 13:06:55 [TestNG-test-Test-1] INFO  HospitalListingsTest -Starting setup process...
+2025-04-09 13:06:56 [TestNG-test-Test-1] INFO  PageActions -Entering text 'Ban' into element: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-09 13:07:01 [TestNG-test-Test-1] INFO  PageActions -Waits for element div to be displayed
+2025-04-09 13:07:01 [TestNG-test-Test-1] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-09 13:07:06 [TestNG-test-Test-1] INFO  PageActions -Waits for element div to be displayed
+2025-04-09 13:07:16 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> xpath: //h1[contains(text(), 'Hospitals in Bangalore')]]
+2025-04-09 13:07:16 [TestNG-test-Test-1] INFO  PageActions -Waits for element h1 to be displayed
+2025-04-09 13:07:16 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-09 13:07:16 [TestNG-test-Test-1] INFO  HospitalListingsTest -Setup process completed successfully.
+2025-04-09 13:07:16 [TestNG-test-Test-1] INFO  HospitalListingsTest -Starting data extraction process...
+2025-04-09 13:07:22 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> css selector: button.fc-button.fc-cta-consent.fc-primary-button]
+2025-04-09 13:07:22 [TestNG-test-Test-1] INFO  PageActions -Waits for element button to be displayed
+2025-04-09 13:07:22 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-09 13:07:24 [TestNG-test-Test-1] INFO  MenuPage -Clicked 'Do not consent'
+2025-04-09 13:07:24 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-09 13:07:24 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-09 13:07:24 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-09 13:07:24 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-09 13:07:24 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-09 13:07:24 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-09 13:07:24 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-09 13:07:28 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-09 13:07:29 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-09 13:07:29 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-09 13:07:29 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-09 13:07:29 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-09 13:07:29 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-09 13:07:29 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-09 13:07:34 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-09 13:07:34 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-09 13:07:34 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-09 13:07:35 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-09 13:07:35 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-09 13:07:35 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-09 13:07:35 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-09 13:07:38 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-09 13:07:39 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-09 13:07:39 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-09 13:07:39 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-09 13:07:39 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-09 13:07:39 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-09 13:07:39 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-09 13:07:43 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-09 13:07:43 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-09 13:07:43 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-09 13:07:43 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-09 13:07:43 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-09 13:07:43 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-09 13:07:43 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-09 13:07:50 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-09 13:07:50 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-09 13:07:50 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-09 13:07:50 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-09 13:07:50 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-09 13:07:50 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-09 13:07:50 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-09 13:07:56 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-09 13:07:56 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-09 13:07:56 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-09 13:07:56 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-09 13:07:56 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-09 13:07:56 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-09 13:07:56 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-09 13:08:01 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-09 13:08:01 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-09 13:08:01 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-09 13:08:01 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-09 13:08:01 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-09 13:08:01 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-09 13:08:01 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-09 13:08:05 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-09 13:08:05 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-09 13:08:05 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-09 13:08:05 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (977a9fbcd3fba1544a0b2d1b1b8eff76)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-09 13:08:05 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-09 13:08:06 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-09 13:08:06 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-09 13:08:07 [TestNG-test-Test-1] WARN  XSSFWorkbook -Sheet 'PractoTest -Bangalore Hospitals.xlsx' will be added with a trimmed name 'PractoTest -Bangalore Hospitals' for MS Excel compliance.
+2025-04-09 13:08:07 [TestNG-test-Test-1] INFO  HospitalListingsTest -Data extraction process completed successfully.
+2025-04-09 13:08:07 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-09 13:08:07 [TestNG-test-Test-1] INFO  HospitalListingsTest -Teardown process completed successfully.
+2025-04-09 13:08:07 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-10 09:19:59 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-10 09:20:02 [main] INFO  BasePage -Navigated to the main page.
+2025-04-10 09:20:03 [main] INFO  MenuPage -MenuPage initialized
+2025-04-10 09:20:03 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-10 09:20:03 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-10 09:20:03 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-10 09:20:07 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-10 09:20:11 [TestNG-test-Test-1] INFO  BasePage -Navigated to the main page.
+2025-04-10 09:20:13 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-10 09:20:16 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-10 09:20:16 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-10 09:20:16 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-10 09:20:16 [TestNG-test-Test-1] INFO  HospitalListingsTest -Starting setup process...
+2025-04-10 09:20:16 [TestNG-test-Test-1] INFO  HospitalListingsTest -Setup process completed successfully.
+2025-04-10 09:20:16 [TestNG-test-Test-1] INFO  HospitalListingsTest -Starting setup process...
+2025-04-10 09:20:17 [TestNG-test-Test-1] INFO  PageActions -Entering text 'Ban' into element: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-10 09:20:22 [TestNG-test-Test-1] INFO  PageActions -Waits for element div to be displayed
+2025-04-10 09:20:22 [TestNG-test-Test-1] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-10 09:20:27 [TestNG-test-Test-1] INFO  PageActions -Waits for element div to be displayed
+2025-04-10 09:20:37 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> xpath: //h1[contains(text(), 'Hospitals in Bangalore')]]
+2025-04-10 09:20:37 [TestNG-test-Test-1] INFO  PageActions -Waits for element h1 to be displayed
+2025-04-10 09:20:37 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:20:37 [TestNG-test-Test-1] INFO  HospitalListingsTest -Setup process completed successfully.
+2025-04-10 09:20:37 [TestNG-test-Test-1] INFO  HospitalListingsTest -Starting data extraction process...
+2025-04-10 09:20:41 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> css selector: button.fc-button.fc-cta-consent.fc-primary-button]
+2025-04-10 09:20:41 [TestNG-test-Test-1] INFO  PageActions -Waits for element button to be displayed
+2025-04-10 09:20:41 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:20:42 [TestNG-test-Test-1] INFO  MenuPage -Clicked 'Do not consent'
+2025-04-10 09:20:42 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-10 09:20:42 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:20:42 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:20:42 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-10 09:20:42 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:20:42 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:20:42 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-10 09:20:46 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-10 09:20:46 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:20:46 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:20:47 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-10 09:20:47 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:20:47 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:20:47 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-10 09:20:51 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-10 09:20:51 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:20:51 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:20:51 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-10 09:20:52 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:20:52 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:20:52 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-10 09:20:56 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-10 09:20:56 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:20:56 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:20:56 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-10 09:20:56 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:20:56 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:20:56 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-10 09:21:00 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-10 09:21:00 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:21:00 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:21:01 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-10 09:21:01 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:21:01 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:21:01 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-10 09:21:06 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-10 09:21:06 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:21:06 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:21:06 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-10 09:21:06 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:21:06 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:21:06 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-10 09:21:11 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-10 09:21:11 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:21:11 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:21:11 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-10 09:21:11 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:21:11 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:21:11 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-10 09:21:16 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-10 09:21:16 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:21:16 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:21:16 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-10 09:21:16 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:21:16 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:21:16 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-10 09:21:20 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-10 09:21:21 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:21:21 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:21:21 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (b8d2868c35de057f99a4f525a224656b)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-10 09:21:21 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:21:21 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:21:21 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-10 09:21:22 [TestNG-test-Test-1] WARN  XSSFWorkbook -Sheet 'PractoTest -Bangalore Hospitals.xlsx' will be added with a trimmed name 'PractoTest -Bangalore Hospitals' for MS Excel compliance.
+2025-04-10 09:21:23 [TestNG-test-Test-1] INFO  HospitalListingsTest -Data extraction process completed successfully.
+2025-04-10 09:21:23 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-10 09:21:23 [TestNG-test-Test-1] INFO  HospitalListingsTest -Teardown process completed successfully.
+2025-04-10 09:21:23 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-10 09:22:06 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-10 09:22:10 [main] INFO  BasePage -Navigated to the main page.
+2025-04-10 09:22:10 [main] INFO  MenuPage -MenuPage initialized
+2025-04-10 09:22:10 [TestNG-test-Test-2] INFO  Report -ExtentReports instance created and configured.
+2025-04-10 09:22:10 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-10 09:22:10 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-10 09:22:10 [TestNG-test-Test-2] INFO  HospitalListingsTest -Starting setup process...
+2025-04-10 09:22:10 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-10 09:22:10 [TestNG-test-Test-2] INFO  HospitalListingsTest -Setup process completed successfully.
+2025-04-10 09:22:10 [TestNG-test-Test-2] INFO  HospitalListingsTest -Starting setup process...
+2025-04-10 09:22:11 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Ban' into element: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> xpath: //*[@id="c-omni-container"]/div/div[1]/div/input]
+2025-04-10 09:22:14 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-10 09:22:16 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-10 09:22:16 [TestNG-test-Test-2] INFO  PageActions -Entering text 'Hospital' into element: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> xpath: //*[@id="c-omni-container"]/div/div[2]/div/input]
+2025-04-10 09:22:18 [TestNG-test-Test-1] INFO  BasePage -Navigated to the main page.
+2025-04-10 09:22:20 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-10 09:22:21 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-10 09:22:23 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-10 09:22:23 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-10 09:22:24 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-10 09:22:24 [TestNG-test-Test-1] INFO  HospitalListingsTest -Starting data extraction process...
+2025-04-10 09:22:29 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> xpath: //h1[contains(text(), 'Hospitals in Bangalore')]]
+2025-04-10 09:22:29 [TestNG-test-Test-2] INFO  PageActions -Waits for element h1 to be displayed
+2025-04-10 09:22:29 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-10 09:22:29 [TestNG-test-Test-2] INFO  HospitalListingsTest -Setup process completed successfully.
+2025-04-10 09:22:32 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> css selector: button.fc-button.fc-cta-consent.fc-primary-button]
+2025-04-10 09:22:33 [TestNG-test-Test-1] INFO  PageActions -Waits for element button to be displayed
+2025-04-10 09:22:33 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:22:33 [TestNG-test-Test-1] INFO  MenuPage -Clicked 'Do not consent'
+2025-04-10 09:22:33 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-10 09:22:33 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:22:33 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:22:33 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-10 09:22:33 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:22:33 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:22:33 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-10 09:22:38 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-10 09:22:38 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:22:38 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:22:38 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-10 09:22:38 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:22:38 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:22:38 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-10 09:22:43 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-10 09:22:44 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:22:44 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:22:44 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-10 09:22:44 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:22:44 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:22:44 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-10 09:22:52 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-10 09:22:52 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:22:52 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:22:52 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-10 09:22:52 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:22:52 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:22:52 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-10 09:22:56 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-10 09:22:57 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:22:57 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:22:57 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-10 09:22:57 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:22:57 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:22:57 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-10 09:23:01 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-10 09:23:01 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:23:01 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:23:02 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-10 09:23:02 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:23:02 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:23:02 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-10 09:23:07 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-10 09:23:08 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:23:08 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:23:08 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-10 09:23:08 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:23:08 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:23:08 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-10 09:23:12 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-10 09:23:12 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:23:12 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:23:13 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-10 09:23:13 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:23:13 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:23:13 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-10 09:23:16 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> css selector: div.pure-u-1 > span[data-qa-id='read_more_info']]
+2025-04-10 09:23:16 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:23:16 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:23:16 [TestNG-test-Test-1] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (5fce621b107b75ad1f6733e240ef8fc6)] -> css selector: span.u-spacer--right-less.p-entity__item-title-label[data-qa-id='amenity_item']]
+2025-04-10 09:23:16 [TestNG-test-Test-1] INFO  PageActions -Waits for element span to be displayed
+2025-04-10 09:23:16 [TestNG-test-Test-1] INFO  PageActions -Element displayed: true
+2025-04-10 09:23:16 [TestNG-test-Test-1] INFO  MenuPage -Parking was displayed
+2025-04-10 09:23:17 [TestNG-test-Test-1] WARN  XSSFWorkbook -Sheet 'PractoTest -Bangalore Hospitals.xlsx' will be added with a trimmed name 'PractoTest -Bangalore Hospitals' for MS Excel compliance.
+2025-04-10 09:23:17 [TestNG-test-Test-1] INFO  HospitalListingsTest -Data extraction process completed successfully.
+2025-04-10 09:23:17 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-10 09:23:17 [TestNG-test-Test-1] INFO  HospitalListingsTest -Teardown process completed successfully.
+2025-04-10 09:23:17 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-10 09:49:47 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-10 09:49:51 [main] INFO  BasePage -Navigated to the main page.
+2025-04-10 09:49:51 [main] INFO  MenuPage -BasePage initialized
+2025-04-10 09:49:52 [main] INFO  Report -ExtentReports instance created and configured.
+2025-04-10 09:49:52 [main] INFO  TopCitiesTest -Starting setup process...
+2025-04-10 09:49:52 [main] INFO  TopCitiesTest -Setup process completed successfully.
+2025-04-10 09:49:52 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (19725acfad0184c732b766c573946e8e)] -> xpath: //*[@id="root"]/div/div/div[3]/div/div/div/div]
+2025-04-10 09:49:52 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-10 09:49:52 [main] INFO  PageActions -Element displayed: true
+2025-04-10 09:49:52 [main] INFO  TopCitiesTest -Verified that the user is on the Practo homepage
+2025-04-10 09:49:57 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (19725acfad0184c732b766c573946e8e)] -> css selector: .fc-dialog.fc-choice-dialog]
+2025-04-10 09:49:57 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-10 09:49:57 [main] INFO  PageActions -Element displayed: true
+2025-04-10 09:49:58 [main] INFO  MenuPage -Clicked 'Do not consent'
+2025-04-10 09:49:58 [main] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (19725acfad0184c732b766c573946e8e)] -> css selector: .ReactModal__Content.ReactModal__Content--after-open]
+2025-04-10 09:49:58 [main] INFO  PageActions -Waits for element div to be displayed
+2025-04-10 09:49:58 [main] INFO  PageActions -Element displayed: true
+2025-04-10 09:50:06 [main] INFO  BasePage -Browser closed successfully.
+2025-04-10 09:50:06 [main] INFO  TopCitiesTest -Teardown process completed successfully.
+2025-04-10 09:50:06 [main] INFO  Report -ExtentReports resources cleaned up.
+2025-04-10 09:56:51 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-10 09:56:55 [main] INFO  BasePage -Navigated to the main page.
+2025-04-10 09:56:55 [main] INFO  MenuPage -BasePage initialized
+2025-04-10 09:56:55 [TestNG-test-Test-2] INFO  Report -ExtentReports instance created and configured.
+2025-04-10 09:56:55 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-10 09:56:55 [TestNG-test-Test-2] INFO  TopCitiesTest -Starting setup process...
+2025-04-10 09:56:55 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-10 09:56:55 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-10 09:56:55 [TestNG-test-Test-2] INFO  TopCitiesTest -Setup process completed successfully.
+2025-04-10 09:56:55 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (91a280d986cf16322574ec0c3ccfd996)] -> xpath: //*[@id="root"]/div/div/div[3]/div/div/div/div]
+2025-04-10 09:56:55 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-10 09:56:55 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-10 09:56:55 [TestNG-test-Test-2] INFO  TopCitiesTest -Verified that the user is on the Practo homepage
+2025-04-10 09:56:58 [TestNG-test-Test-2] ERROR TopCitiesTest -Error in goToDiagnosisPageTest: 
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [91a280d986cf16322574ec0c3ccfd996, clickElement {id=f.FFA9C9EF20DAD1795B0E6381C9B824B6.d.BD185693A1EA4629312F3688A984E527.e.72}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59136}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59136/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (91a280d986cf16322574ec0c3ccfd996)] -> xpath: //*[@id="__next"]/main/div/div[1]/div/div[3]/div/div[2]/div[4]/a/div[1]]
+Session ID: 91a280d986cf16322574ec0c3ccfd996
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.30.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.30.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source) ~[?:?]
+	at com.utils.PageActions.clickElement(PageActions.java:41) ~[test-classes/:?]
+	at com.pages.DiagnosticsPage.clickLabTestBtn(DiagnosticsPage.java:69) ~[test-classes/:?]
+	at com.pages.DiagnosticsPage.goToDiagnosticsPage(DiagnosticsPage.java:75) ~[test-classes/:?]
+	at com.pageTests.TopCitiesTest.goToDiagnosisPageTest(TopCitiesTest.java:58) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-04-10 09:56:58 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: Proxy element for: DefaultElementLocator 'By.cssSelector: .fc-dialog.fc-choice-dialog'
+2025-04-10 09:57:00 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-10 09:57:03 [TestNG-test-Test-1] INFO  BasePage -Navigated to the main page.
+2025-04-10 09:57:06 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-10 09:57:10 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-10 09:57:10 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-10 09:57:10 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-10 09:57:12 [TestNG-test-Test-1] INFO  TopCitiesTest -Top cities names written to Excel file
+2025-04-10 09:57:28 [TestNG-test-Test-2] ERROR TopCitiesTest -Error in manageConsentTest: 
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.utils.PageActions$$Lambda/0x0000021a2e386b50@18c2670 (tried for 30 second(s) with 5000 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265) ~[selenium-support-4.30.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.30.0.jar:?]
+	at com.utils.PageActions.waitFor(PageActions.java:61) ~[test-classes/:?]
+	at com.utils.PageActions.isElementDisplayed(PageActions.java:29) ~[test-classes/:?]
+	at com.pages.DiagnosticsPage.isConsentDialogDisplayed(DiagnosticsPage.java:101) ~[test-classes/:?]
+	at com.pages.DiagnosticsPage.manageConsent(DiagnosticsPage.java:111) ~[test-classes/:?]
+	at com.pageTests.TopCitiesTest.manageConsentTest(TopCitiesTest.java:71) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".fc-dialog.fc-choice-dialog"}
+  (Session info: chrome=134.0.6998.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [91a280d986cf16322574ec0c3ccfd996, findElement {using=css selector, value=.fc-dialog.fc-choice-dialog}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59136}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59136/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 91a280d986cf16322574ec0c3ccfd996
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.30.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.30.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.30.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy27.isDisplayed(Unknown Source) ~[?:?]
+	at com.utils.PageActions.lambda$0(PageActions.java:61) ~[test-classes/:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.30.0.jar:?]
+	... 21 more
+2025-04-10 09:57:28 [TestNG-test-Test-2] INFO  BasePage -Browser closed successfully.
+2025-04-10 09:57:28 [TestNG-test-Test-2] INFO  TopCitiesTest -Teardown process completed successfully.
+2025-04-10 09:57:28 [TestNG-test-Test-2] INFO  Report -ExtentReports resources cleaned up.
+2025-04-10 10:18:22 [main] INFO  BasePage -Chrome browser setup completed.
+2025-04-10 10:18:26 [main] INFO  BasePage -Navigated to the main page.
+2025-04-10 10:18:26 [main] INFO  MenuPage -BasePage initialized
+2025-04-10 10:18:26 [TestNG-test-Test-1] INFO  Report -ExtentReports instance created and configured.
+2025-04-10 10:18:26 [TestNG-test-Test-2] INFO  Report -ExtentReports instance created and configured.
+2025-04-10 10:18:26 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting setup process...
+2025-04-10 10:18:26 [TestNG-test-Test-2] INFO  TopCitiesTest -Starting setup process...
+2025-04-10 10:18:26 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Setup process completed successfully.
+2025-04-10 10:18:26 [TestNG-test-Test-2] INFO  TopCitiesTest -Setup process completed successfully.
+2025-04-10 10:18:27 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (3763ff8108b82ef6e61b1f33abf22736)] -> xpath: //*[@id="root"]/div/div/div[3]/div/div/div/div]
+2025-04-10 10:18:27 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-10 10:18:27 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-10 10:18:27 [TestNG-test-Test-2] INFO  TopCitiesTest -Verified that the user is on the Practo homepage
+2025-04-10 10:18:32 [TestNG-test-Test-2] INFO  TopCitiesTest -Navigated to the diagnostics page
+2025-04-10 10:18:32 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (3763ff8108b82ef6e61b1f33abf22736)] -> css selector: .fc-dialog.fc-choice-dialog]
+2025-04-10 10:18:32 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-10 10:18:32 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-10 10:18:32 [TestNG-test-Test-1] INFO  BasePage -Chrome browser setup completed.
+2025-04-10 10:18:33 [TestNG-test-Test-2] INFO  MenuPage -Clicked 'Do not consent'
+2025-04-10 10:18:33 [TestNG-test-Test-2] INFO  PageActions -Checking if element is displayed: [[ChromeDriver: chrome on windows (3763ff8108b82ef6e61b1f33abf22736)] -> css selector: .ReactModal__Content.ReactModal__Content--after-open]
+2025-04-10 10:18:33 [TestNG-test-Test-2] INFO  PageActions -Waits for element div to be displayed
+2025-04-10 10:18:33 [TestNG-test-Test-2] INFO  PageActions -Element displayed: true
+2025-04-10 10:18:33 [TestNG-test-Test-2] INFO  TopCitiesTest -Top cities card is displayed
+2025-04-10 10:18:35 [TestNG-test-Test-2] INFO  TopCitiesTest -Top cities names written to Excel file
+2025-04-10 10:18:37 [TestNG-test-Test-1] INFO  BasePage -Navigated to the main page.
+2025-04-10 10:18:40 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Starting teardown process...
+2025-04-10 10:18:40 [TestNG-test-Test-2] INFO  BasePage -Browser closed successfully.
+2025-04-10 10:18:40 [TestNG-test-Test-1] INFO  BasePage -Browser closed successfully.
+2025-04-10 10:18:40 [TestNG-test-Test-2] INFO  TopCitiesTest -Teardown process completed successfully.
+2025-04-10 10:18:40 [TestNG-test-Test-1] INFO  HomePageAccessibilityTest -Teardown process completed successfully.
+2025-04-10 10:18:41 [TestNG-test-Test-1] INFO  Report -ExtentReports resources cleaned up.
+2025-04-10 10:18:41 [TestNG-test-Test-2] INFO  Report -ExtentReports resources cleaned up.

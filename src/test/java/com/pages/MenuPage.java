@@ -12,13 +12,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.utils.HospitalData;
 import com.utils.PageActions;
+import com.utils.Utils;
 
 public class MenuPage extends BasePage {
 
 	// Logger instance for logging information
 	private static final Logger logger = LogManager.getLogger(MenuPage.class);
-	WebDriver driver;
+	public WebDriver driver;
 	static PageActions pageActions;
 
 	// Constructor to initialize the page elements and setup the browser
@@ -163,14 +165,17 @@ public class MenuPage extends BasePage {
 //MENU PAGE METHODS
 
 	//Navigates to menu page
-	public static void goToMenuPage(String city, String service) {
+	public static void goToMenuPage(String city, String service, WebDriver driver) {
 		clickCityLocator();
 		enterCity(city);
+		Utils.bringToFront(driver);
 		pageActions.waitFor(cityName);
 		clickCityName();
 		enterService(service);
+		Utils.bringToFront(driver);
 		pageActions.waitFor(serviceName);
 		clickServiceType();
+		Utils.bringToFront(driver);
 	}
 	
 	//metho to click on hospital name
@@ -202,8 +207,8 @@ public class MenuPage extends BasePage {
 	}
 
 	//Method used to extract list of hospitals that meet requirements
-	public List<String> extractHospitalInfo() {
-		List<String> hospitalInfo = new ArrayList<>();
+	public List<HospitalData> extractHospitalInfo() {
+		List<HospitalData> hospitalInfo = new ArrayList<>();
 		boolean consentManaged = false;
 
 		for (WebElement card : hospitalCards) {
@@ -243,7 +248,7 @@ public class MenuPage extends BasePage {
 					findParking();
 					// Check if each hospital website has parking or not.
 					if (isParkingDisplayed() == true) {
-						hospitalInfo.add(title);
+						hospitalInfo.add(new HospitalData(title, openingTime, ratingText));
 						logger.info("Parking was displayed");
 					}
 					// close current tab

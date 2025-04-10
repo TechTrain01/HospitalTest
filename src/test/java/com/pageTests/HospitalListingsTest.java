@@ -18,7 +18,7 @@ import com.utils.Utils;
 public class HospitalListingsTest {
 
 	// Logger instance for logging information
-	private static final Logger logger = LogManager.getLogger(BasePage.class);
+	private static final Logger logger = LogManager.getLogger(HospitalListingsTest.class);
 	private ExtentReports extent;
 	private ExtentTest test;
 	MenuPage mn = new MenuPage();
@@ -40,16 +40,18 @@ public class HospitalListingsTest {
         test.pass("Setup process completed successfully.");
     }
 
+
 	@Test(priority = 1)
 	public void setUp() {
 		// Log the start of the setup process
         logger.info("Starting setup process...");
         // Navigate to the menu page with the specified city and service type
-		MenuPage.goToMenuPage(PropertiesHandler.getProperty("city"), PropertiesHandler.getProperty("serviceType"));
+		MenuPage.goToMenuPage(PropertiesHandler.getProperty("city"), PropertiesHandler.getProperty("serviceType"), mn.driver);
 		// Assert that the hospital numbers are displayed
 		AssertJUnit.assertEquals(mn.isHospitalNumbersDisplayed(), true);
 		// Log the successful setup
         logger.info("Setup process completed successfully.");
+        
 	}
 
 	@Test(priority = 2)
@@ -61,13 +63,14 @@ public class HospitalListingsTest {
 		// Log the successful data extraction
         logger.info("Data extraction process completed successfully.");
         test.pass("Data extraction process completed successfully.");
+        
 	}
 	
 	
 	@AfterClass
 	public void tearDown() {
 		test.info("Starting teardown process...");
-		BasePage.closeWeb();
+		mn.closeWeb();
 		// Log the successful teardown
         logger.info("Teardown process completed successfully.");
      // Flush the ExtentReports instance

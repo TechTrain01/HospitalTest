@@ -1,4 +1,4 @@
-@Regression1
+@Regression
 Feature: Corporate Wellness Form Validation
 
   @invalidLoginInput

@@ -6,93 +6,97 @@
 	<artifactId>hospital-website-testing</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<properties>
+		<!-- Define properties for versions -->
+		<selenium.version>4.30.0</selenium.version>
+		<axe-core.version>4.10.1</axe-core.version>
+		<log4j.version>2.23.1</log4j.version>
+		<extentreports.version>5.1.2</extentreports.version>
+		<commons-io.version>2.18.0</commons-io.version>
+		<poi-ooxml.version>5.2.3</poi-ooxml.version>
+		<jackson.version>2.18.2</jackson.version>
+		<cucumber.version>7.21.1</cucumber.version>
+		<extentreports-cucumber7-adapter.version>1.14.0</extentreports-cucumber7-adapter.version>
+		<rest-assured.version>5.5.1</rest-assured.version>
+		<json.version>20250107</json.version>
+		<unirest.version>3.14.5</unirest.version>
+		<testng.version>7.11.0</testng.version>
+		<maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
+		<maven.surefire.plugin.version>3.0.0-M5</maven.surefire.plugin.version>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.30.0</version> <!-- Use the latest version -->
+			<version>${selenium.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>com.deque.html.axe-core</groupId>
 			<artifactId>selenium</artifactId>
-			<version>4.10.1</version>
+			<version>${axe-core.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
-			<version>2.23.1</version>
+			<version>${log4j.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
-			<version>5.1.2</version>
+			<version>${extentreports.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
-			<version>2.18.0</version>
+			<version>${commons-io.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
-			<version>5.2.3</version>
+			<version>${poi-ooxml.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.18.2</version>
+			<version>${jackson.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-testng</artifactId>
-			<version>7.21.1</version>
+			<version>${cucumber.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
-			<version>7.21.1</version>
+			<version>${cucumber.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>tech.grasshopper</groupId>
 			<artifactId>extentreports-cucumber7-adapter</artifactId>
-			<version>1.14.0</version>
+			<version>${extentreports-cucumber7-adapter.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>rest-assured</artifactId>
-			<version>5.5.1</version>
+			<version>${rest-assured.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
-			<version>20250107</version>
+			<version>${json.version}</version>
 		</dependency>
-
-
 		<dependency>
 			<groupId>com.konghq</groupId>
 			<artifactId>unirest-java</artifactId>
-			<version>3.14.5</version>
+			<version>${unirest.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>7.11.0</version>
+			<version>${testng.version}</version>
 		</dependency>
-
-
 	</dependencies>
-
 </project>

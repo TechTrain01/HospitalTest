@@ -63,8 +63,8 @@ public class WellnessPageSteps {
 	// Step to verify that the schedule button is greyed out
 	@And("the schedule button is greyed out")
 	public void the_schedule_button_is_greyed_out() {
-		// Assert that the schedule button is greyed out
-		AssertJUnit.assertEquals(wp.isScheduleButtonGreyed(wp.scheduleDemoButton), true);
+		// Assert that the schedule button is not enabled
+		AssertJUnit.assertEquals(wp.isButtonWorking(wp.scheduleDemoButton), false);
 	}
 	
 	// Step to click on the Schedule button

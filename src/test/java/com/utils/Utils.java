@@ -1,77 +1,84 @@
 package com.utils;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 
 public class Utils {
 	private static final Logger logger = LogManager.getLogger(Utils.class);
-	
-	
-	public static void writeDataToExcel(List<String> arrayList, String fileName) {
-        Workbook workbook = new XSSFWorkbook();
-        Sheet sheet = workbook.createSheet("PractoTest - "+fileName);
 
-        int rowNum = 0;
-        for (String city : arrayList) {
-            Row row = sheet.createRow(rowNum++);
-            row.createCell(0).setCellValue(city);
-        }
+	public static void bringToFront(WebDriver driver) {
+		((JavascriptExecutor) driver).executeScript("window.focus();");
+	}
 
-        try (FileOutputStream fileOut = new FileOutputStream(fileName)) {
-            workbook.write(fileOut);
-        } catch (IOException e) {
-            logger.error("Error writing to Excel file", e);
-        } finally {
-            try {
-                workbook.close();
-            } catch (IOException e) {
-                logger.error("Error closing the workbook", e);
-            }
-        }
-    }
-	
-	
-	public List<String> readHospitalNames(String filePath) throws IOException {
-        List<String> hospitalNames = new ArrayList<>();
-        FileInputStream fis = new FileInputStream(new File(filePath));
-        Workbook workbook = WorkbookFactory.create(fis);
-        Sheet sheet = workbook.getSheetAt(0);
+	public static void writeDataToExcel(List<HospitalData> hospitalList, String fileName) {
+		Workbook workbook = new XSSFWorkbook();
+		Sheet sheet = workbook
+				.createSheet("PractoTest -" + PropertiesHandler.getProperty("cityFullName") + " " + fileName);
 
-        for (Row row : sheet) {
-            hospitalNames.add(row.getCell(0).getStringCellValue());
-        }
+		// Create header row
+		Row headerRow = sheet.createRow(0);
+		headerRow.createCell(0).setCellValue("Name");
+		headerRow.createCell(1).setCellValue("Opening Times");
+		headerRow.createCell(2).setCellValue("Ratings");
 
-        workbook.close();
-        fis.close();
-        return hospitalNames;
-    }
-	
-	
-	
-//	public static Object[][] getExcelData(String filePath, int sheetIndex) throws IOException {
-//		try (FileInputStream file = new FileInputStream(new File(filePath));
-//				Workbook workbook = new XSSFWorkbook(file)) {
-//			Sheet sheet = workbook.getSheetAt(sheetIndex);
-//			int rowCount = sheet.getPhysicalNumberOfRows();
-//			Object[][] data = new Object[rowCount - 1][2];
-//			for (int i = 1; i < rowCount; i++) {
-//				Row row = sheet.getRow(i);
-//				data[i - 1][0] = row.getCell(0).getStringCellValue();
-//				data[i - 1][1] = row.getCell(1).getStringCellValue();
-//			}
-//			return data;
-//		}
-//	}
+		// Populate data rows
+		int rowNum = 1;
+		for (HospitalData hospital : hospitalList) {
+			Row row = sheet.createRow(rowNum++);
+			row.createCell(0).setCellValue(hospital.getName());
+			row.createCell(1).setCellValue(hospital.getOpeningTimes());
+			row.createCell(2).setCellValue(hospital.getRatings());
+		}
+
+		try (FileOutputStream fileOut = new FileOutputStream(fileName)) {
+			workbook.write(fileOut);
+		} catch (IOException e) {
+			System.err.println("Error writing to Excel file: " + e.getMessage());
+		} finally {
+			try {
+				workbook.close();
+			} catch (IOException e) {
+				System.err.println("Error closing the workbook: " + e.getMessage());
+			}
+		}
+	}
+
+	//Method that adds the names only to an excel file
+	public static void writeNamesToExcel(List<String> hospitalList, String fileName) {
+		Workbook workbook = new XSSFWorkbook();
+		Sheet sheet = workbook.createSheet("PractoTest - " + fileName);
+
+		// Create header row
+		Row headerRow = sheet.createRow(0);
+		headerRow.createCell(0).setCellValue("Top Cities");
+
+		int rowNum = 1;
+		for (String city : hospitalList) {
+			Row row = sheet.createRow(rowNum++);
+			row.createCell(0).setCellValue(city);
+		}
+
+		try (FileOutputStream fileOut = new FileOutputStream(fileName)) {
+			workbook.write(fileOut);
+		} catch (IOException e) {
+			logger.error("Error writing to Excel file", e);
+		} finally {
+			try {
+				workbook.close();
+			} catch (IOException e) {
+				logger.error("Error closing the workbook", e);
+			}
+		}
+	}
 
 }

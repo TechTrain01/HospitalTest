@@ -146,10 +146,9 @@ public class WellnessPage extends BasePage {
 	}
 
 	// Method to check if the schedule button is greyed out
-	public boolean isScheduleButtonGreyed(WebElement element) {
-		String backGroundColour = element.getCssValue("background-color");
-		String expectedBackgroundColour = Color.fromString("#b4b4be").asRgba();
-		return backGroundColour.equals(expectedBackgroundColour);
+	public boolean isButtonWorking(WebElement element) {
+		Boolean notWorking = element.isEnabled();
+		return notWorking;
 	}
 
 	// Method to get the contact number input element

@@ -46,7 +46,7 @@ public class TopCitiesSteps {
 	@And("the top cities should be visible")
 	public void the_top_cities_should_be_visible() {
 		// Write the names of the top cities to an Excel file
-		Utils.writeDataToExcel(dp.extractNames(), "TopCities.xlsx");
+		Utils.writeNamesToExcel(dp.extractNames(), "TopCities.xlsx");
 	}
 
 }
