@@ -9,7 +9,6 @@ import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import com.pages.BasePage;
 import com.pages.MenuPage;
 import com.utils.PropertiesHandler;
 import com.utils.Report;
@@ -37,7 +36,7 @@ public class HospitalListingsTest {
 
         // Log the successful setup
         logger.info("Setup process completed successfully.");
-        test.pass("Setup process completed successfully.");
+        
     }
 
 
@@ -51,6 +50,7 @@ public class HospitalListingsTest {
 		AssertJUnit.assertEquals(mn.isHospitalNumbersDisplayed(), true);
 		// Log the successful setup
         logger.info("Setup process completed successfully.");
+        test.pass("Setup process completed successfully.");
         
 	}
 
@@ -62,7 +62,7 @@ public class HospitalListingsTest {
 		Utils.writeDataToExcel(mn.extractHospitalInfo(), "Hospitals.xlsx");
 		// Log the successful data extraction
         logger.info("Data extraction process completed successfully.");
-        test.pass("Data extraction process completed successfully.");
+        test.pass("Hospital Data extracted successfully.");
         
 	}
 	

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite>
-<suite name="Suite" parallel="methods" thread-count="2">
+<suite name="Suite" parallel="methods" thread-count="1">
   <test name="Test">
     <classes>
       <class name="com.pageTests.HomePageAccessibilityTest"/>
-      <class name="com.pageTests.TopCitiesTest"/>
+      <class name="com.pageTests.HospitalListingsTest"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

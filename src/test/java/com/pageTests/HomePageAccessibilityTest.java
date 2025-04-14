@@ -18,7 +18,7 @@ public class HomePageAccessibilityTest {
     private ExtentReports extent;
     private ExtentTest test;
     private AxeAccessibilityChecker axeChecker;
-    MenuPage mp;
+ 
    
 
     @BeforeClass
@@ -40,7 +40,7 @@ public class HomePageAccessibilityTest {
     @Test
     public void testAccessibility() {
         // Initialize AxeAccessibilityChecker with the WebDriver instance
-        axeChecker = new AxeAccessibilityChecker(mp.browserSetUp());
+        axeChecker = new AxeAccessibilityChecker(MenuPage.browserSetUp());
         axeChecker.axeHome(test);
 //        Utils.bringToFront(mp.driver);
     }
@@ -52,7 +52,7 @@ public class HomePageAccessibilityTest {
         test.info("Starting teardown process...");
 
         // Close the web driver
-        mp.closeWeb();
+        MenuPage.closeWeb();
 
         // Log the successful teardown
         logger.info("Teardown process completed successfully.");
